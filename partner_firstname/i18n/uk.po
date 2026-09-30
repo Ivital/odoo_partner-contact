@@ -1,0 +1,134 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * partner_firstname
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-30 12:22+0000\n"
+"PO-Revision-Date: 2026-09-30 00:00+0000\n"
+"Last-Translator: \n"
+"Language: uk\n"
+"Language-Team: Ukrainian\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#. module: partner_firstname
+#. odoo-python
+#, python-format
+msgid "%(login)s (copy)"
+msgstr "%(login)s (копія)"
+
+#. module: partner_firstname
+#. odoo-python
+#, python-format
+msgid "%(name)s (copy)"
+msgstr "%(name)s (копія)"
+
+#. module: partner_firstname
+#. odoo-python
+#, python-format
+msgid "%s (copy)"
+msgstr "%s (копія)"
+
+#. module: partner_firstname
+#. odoo-python
+msgid "(copy)"
+msgstr "(копія)"
+
+#. module: partner_firstname
+msgid "Config Settings"
+msgstr "Налаштування конфігурації"
+
+#. module: partner_firstname
+msgid "Contact"
+msgstr "Контакт"
+
+#. module: partner_firstname
+msgid "Contacts require a name."
+msgstr "Для контактів потрібно вказати ім'я."
+
+#. module: partner_firstname
+msgid "Define which fields are required or not"
+msgstr "Визначає, які поля є обов'язковими, а які ні"
+
+#. module: partner_firstname
+#. odoo-python
+#, python-format
+msgid "Error(s) with partner %d's name."
+msgstr "Помилка(и) в імені контрагента %d."
+
+#. module: partner_firstname
+msgid "First name"
+msgstr "Ім'я"
+
+#. module: partner_firstname
+msgid "Firstname Required"
+msgstr "Ім'я обов'язкове"
+
+#. module: partner_firstname
+msgid "Form Has Lastname First"
+msgstr "У формі спочатку прізвище"
+
+#. module: partner_firstname
+msgid "Last name"
+msgstr "Прізвище"
+
+#. module: partner_firstname
+msgid "Lastname Required"
+msgstr "Прізвище обов'язкове"
+
+#. module: partner_firstname
+msgid "Manage common things needed for models that have firstname / lastname fields."
+msgstr "Керування спільною логікою для моделей із полями імені та прізвища."
+
+#. module: partner_firstname
+msgid "Name"
+msgstr "Назва"
+
+#. module: partner_firstname
+#. odoo-python
+msgid "No name is set."
+msgstr "Ім'я не задано."
+
+#. module: partner_firstname
+msgid "Order to compose partner fullname"
+msgstr "Порядок формування повного імені контрагента"
+
+#. module: partner_firstname
+msgid "Partner Names"
+msgstr "Імена контрагентів"
+
+#. module: partner_firstname
+msgid "Partner Names Order"
+msgstr "Порядок імен контрагента"
+
+#. module: partner_firstname
+msgid "Partner Names Order Changed"
+msgstr "Порядок імен контрагента змінено"
+
+#. module: partner_firstname
+msgid "Partner Names Required Fields"
+msgstr "Обов'язкові поля імен контрагента"
+
+#. module: partner_firstname
+msgid "Recalculate names"
+msgstr "Перерахувати імена"
+
+#. module: partner_firstname
+msgid ""
+"Recalculate names for all partners. This process could take so much time if "
+"there are more than 10,000 active partners"
+msgstr ""
+"Перерахувати імена всіх контрагентів. Процес може тривати довго, якщо "
+"активних контрагентів понад 10 000"
+
+#. module: partner_firstname
+msgid "User"
+msgstr "Користувач"
+

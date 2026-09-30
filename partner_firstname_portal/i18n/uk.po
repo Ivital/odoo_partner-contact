@@ -1,0 +1,45 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * partner_firstname_portal
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-30 12:22+0000\n"
+"PO-Revision-Date: 2026-09-30 00:00+0000\n"
+"Last-Translator: \n"
+"Language: uk\n"
+"Language-Team: Ukrainian\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#. module: partner_firstname_portal
+msgid "Company"
+msgstr "Компанія"
+
+#. module: partner_firstname_portal
+msgid "Contact"
+msgstr "Контакт"
+
+#. module: partner_firstname_portal
+msgid "First Name"
+msgstr "Ім'я"
+
+#. module: partner_firstname_portal
+msgid "Individual"
+msgstr "Фізична особа"
+
+#. module: partner_firstname_portal
+msgid "Last Name"
+msgstr "Прізвище"
+
+#. module: partner_firstname_portal
+#. odoo-python
+msgid "Please enter your firstname or your lastname."
+msgstr "Введіть ім'я або прізвище."
+
