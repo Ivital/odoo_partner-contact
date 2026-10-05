@@ -89,3 +89,15 @@ msgstr ""
 #: model:ir.model.constraint,message:partner_contact_age_range.constraint_res_partner_age_range_name_uniq
 msgid "A name must be unique !"
 msgstr "Назва має бути унікальною!"
+
+#. module: partner_contact_age_range
+#. odoo-python
+#: code:addons/partner_contact_age_range/models/res_partner_age_range.py:0
+msgid "%(name)s is not a valid range (%(age_from)s >= %(age_to)s)"
+msgstr "%(name)s не є дійсним діапазоном (%(age_from)s >= %(age_to)s)"
+
+#. module: partner_contact_age_range
+#. odoo-python
+#: code:addons/partner_contact_age_range/models/res_partner_age_range.py:0
+msgid "%(name)s is overalapping with range %(age_from)s"
+msgstr "%(name)s перекривається з діапазоном %(age_from)s"

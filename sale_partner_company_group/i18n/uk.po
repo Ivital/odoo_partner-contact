@@ -24,3 +24,13 @@ msgstr "Попередження"
 #: model_terms:ir.ui.view,arch_db:sale_partner_company_group.view_sales_order_filter
 msgid "Company Group"
 msgstr "Група компаній"
+
+#. module: sale_partner_company_group
+#. odoo-python
+#: code:addons/sale_partner_company_group/models/res_partner.py:0
+msgid ""
+"The company group %(company_group)s has the pricelist %(pricelist)s, that is"
+" different than the pricelist set on this contact"
+msgstr ""
+"Група компаній %(company_group)s має прайс-лист %(pricelist)s, який "
+"відрізняється від прайс-листа цього контакту"

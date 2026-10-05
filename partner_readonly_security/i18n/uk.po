@@ -17,3 +17,13 @@ msgstr ""
 #: model:res.groups,name:partner_readonly_security.group_partner_edition
 msgid "Partner edition"
 msgstr "Редагування партнера"
+
+#. module: partner_readonly_security
+#. odoo-python
+#: code:addons/partner_readonly_security/models/res_partner.py:0
+msgid ""
+"Sorry, you are not allowed to create/edit partners. Please contact your "
+"administrator for further information."
+msgstr ""
+"На жаль, вам не дозволено створювати/редагувати партнерів. Зверніться до "
+"адміністратора."

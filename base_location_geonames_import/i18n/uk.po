@@ -22,7 +22,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/base_location_geonames_import/wizard/geonames_import.py:0
 msgid "%s could not be deleted"
-msgstr ""
+msgstr "Не вдалося видалити %s"
 
 #. module: base_location_geonames_import
 #: model_terms:ir.ui.view,arch_db:base_location_geonames_import.city_zip_geonames_import_form
@@ -94,7 +94,7 @@ msgstr "Стовпець назви області Geonames"
 #. odoo-python
 #: code:addons/base_location_geonames_import/wizard/geonames_import.py:0
 msgid "Got an error %d when trying to download the file %s."
-msgstr ""
+msgstr "Під час спроби завантажити файл %s отримано помилку %d."
 
 #. module: base_location_geonames_import
 #: model:ir.model.fields,field_description:base_location_geonames_import.field_city_zip_geonames_import__id

@@ -23,3 +23,12 @@ msgstr "Тип"
 #: code:addons/partner_category_type/models/res_partner_category.py:0
 msgid "Generic"
 msgstr "Загальний"
+
+#. module: partner_category_type
+#. odoo-python
+#: code:addons/partner_category_type/models/res_partner_category.py:0
+msgid ""
+"Contact Tag '%(tag_name)s' has different type than parent '%(parent_name)s'."
+msgstr ""
+"Тег контакту «%(tag_name)s» має інший тип, ніж батьківський "
+"«%(parent_name)s»."

@@ -24,3 +24,9 @@ msgstr "Друге прізвище"
 #: code:addons/partner_second_lastname/models/res_partner.py:0
 msgid "%s (copy)"
 msgstr "%s (копія)"
+
+#. module: partner_second_lastname
+#. odoo-python
+#: code:addons/partner_second_lastname/models/res_partner.py:0
+msgid "(copy)"
+msgstr "(копія)"

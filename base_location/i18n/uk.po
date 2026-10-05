@@ -164,7 +164,7 @@ msgstr "Стан"
 msgid ""
 "The city of the partner %(partner)s differs from that in location "
 "%(location)s"
-msgstr ""
+msgstr "Місто партнера %(partner)s відрізняється від міста місця %(location)s"
 
 #. module: base_location
 #. odoo-python
@@ -173,6 +173,7 @@ msgid ""
 "The country of the partner %(partner)s differs from that in location "
 "%(location)s"
 msgstr ""
+"Країна партнера %(partner)s відрізняється від країни місця %(location)s"
 
 #. module: base_location
 #. odoo-python
@@ -181,6 +182,7 @@ msgid ""
 "The state of the partner %(partner)s differs from that in location "
 "%(location)s"
 msgstr ""
+"Область/штат партнера %(partner)s відрізняється від місця %(location)s"
 
 #. module: base_location
 #. odoo-python
@@ -189,6 +191,8 @@ msgid ""
 "The zip of the partner %(partner)s differs from that in location "
 "%(location)s"
 msgstr ""
+"Поштовий індекс партнера %(partner)s відрізняється від індексу місця "
+"%(location)s"
 
 #. module: base_location
 #: model:ir.model.fields,help:base_location.field_res_company__zip_id

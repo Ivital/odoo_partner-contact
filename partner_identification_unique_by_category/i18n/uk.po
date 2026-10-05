@@ -23,3 +23,23 @@ msgstr "Забезпечити унікальність"
 msgid "When set, duplicate numbers will not be allowed for this category."
 msgstr ""
 "Якщо встановлено, дублікати номерів для цієї категорії не дозволяються."
+
+#. module: partner_identification_unique_by_category
+#. odoo-python
+#: code:addons/partner_identification_unique_by_category/models/res_partner_id_number.py:0
+msgid ""
+"The Id %(name)s in the category %(category_name)s could not be created "
+"because it already exists"
+msgstr ""
+"ID %(name)s у категорії %(category_name)s не вдалося створити, оскільки він "
+"уже існує"
+
+#. module: partner_identification_unique_by_category
+#. odoo-python
+#: code:addons/partner_identification_unique_by_category/models/res_partner_id_category.py:0
+msgid ""
+"The category %s can not be set to use unique numbers, because it already "
+"contains duplicates."
+msgstr ""
+"Категорію %s не можна налаштувати на унікальні номери, оскільки вона вже "
+"містить дублікати."

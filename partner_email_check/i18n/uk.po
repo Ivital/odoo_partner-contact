@@ -73,3 +73,37 @@ msgstr "Не дозволяти електронні адреси з непра�
 #: model:ir.model.fields,help:partner_email_check.field_res_config_settings__partner_email_check_filter_duplicates
 msgid "Don't allow multiple partners to have the same email address."
 msgstr "Не дозволяти кільком партнерам мати однакову електронну адресу."
+
+#. module: partner_email_check
+#. odoo-python
+#: code:addons/partner_email_check/models/res_partner.py:0
+msgid "%s is an invalid email"
+msgstr "%s — недійсна електронна адреса"
+
+#. module: partner_email_check
+#. odoo-python
+#: code:addons/partner_email_check/models/res_partner.py:0
+msgid "Cannot deliver to email address %s"
+msgstr "Не вдалося доставити на електронну адресу %s"
+
+#. module: partner_email_check
+#. odoo-python
+#: code:addons/partner_email_check/models/res_partner.py:0
+msgid "Cannot import 'email_validator'."
+msgstr "Не вдалося імпортувати 'email_validator'."
+
+#. module: partner_email_check
+#. odoo-python
+#: code:addons/partner_email_check/models/res_partner.py:0
+msgid "Email '%s' is already in use."
+msgstr "Електронна адреса '%s' уже використовується."
+
+#. module: partner_email_check
+#. odoo-python
+#: code:addons/partner_email_check/models/res_partner.py:0
+msgid ""
+"Field contains multiple email addresses. This is not supported when "
+"duplicate email addresses are not allowed."
+msgstr ""
+"Поле містить кілька електронних адрес. Це не підтримується, коли дублікати "
+"електронних адрес заборонено."

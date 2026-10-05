@@ -201,7 +201,7 @@ msgstr "Батьківський шлях"
 #. odoo-python
 #: code:addons/base_location_nuts/wizard/nuts_import.py:0
 msgid "Partner NUTS by EU"
-msgstr ""
+msgstr "NUTS партнера за ЄС"
 
 #. module: base_location_nuts
 #: model_terms:ir.ui.view,arch_db:base_location_nuts.view_res_partner_nuts_filter

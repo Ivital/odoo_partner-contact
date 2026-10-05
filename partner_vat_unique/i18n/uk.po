@@ -27,3 +27,9 @@ msgstr "Обмеження унікальності ПДВ"
 #: model:ir.model.fields,help:partner_vat_unique.field_res_config_settings__partner_vat_unique
 msgid "Check this if you want to constrain VAT number to be unique."
 msgstr "Позначте, якщо потрібно вимагати унікальності номера ПДВ."
+
+#. module: partner_vat_unique
+#. odoo-python
+#: code:addons/partner_vat_unique/models/res_partner.py:0
+msgid "The VAT %(vat)s already exists in another partner."
+msgstr "ПДВ %(vat)s уже існує в іншого партнера."

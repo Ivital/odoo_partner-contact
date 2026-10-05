@@ -24,3 +24,9 @@ msgstr "Посилання постачальника"
 #: model:ir.model.fields,help:partner_supplier_ref_sequence.field_res_users__supplier_ref
 msgid "Supplier reference given to this partner."
 msgstr "Посилання постачальника, надане цьому контрагенту."
+
+#. module: partner_supplier_ref_sequence
+#. odoo-python
+#: code:addons/partner_supplier_ref_sequence/models/res_partner.py:0
+msgid "Either field values or an id must be provided."
+msgstr "Потрібно вказати або значення полів, або ID."

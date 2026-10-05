@@ -56,3 +56,15 @@ msgstr "Тип зв’язку партнера"
 #: model:ir.model,name:partner_multi_relation_function.model_res_partner_relation
 msgid "Partner relation"
 msgstr "Зв’язок партнера"
+
+#. module: partner_multi_relation_function
+#. odoo-python
+#: code:addons/partner_multi_relation_function/models/res_partner.py:0
+msgid "Unsupported search operator \"%s\""
+msgstr "Непідтримуваний оператор пошуку \"%s\""
+
+#. module: partner_multi_relation_function
+#. odoo-python
+#: code:addons/partner_multi_relation_function/models/res_partner_relation.py:0
+msgid "You can not have a function on relations of type %(type)s."
+msgstr "Не можна мати функцію у зв’язках типу %(type)s."

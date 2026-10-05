@@ -32,3 +32,9 @@ msgstr "напр., DOE"
 #: model_terms:ir.ui.view,arch_db:partner_firstname_auth_signup.fields
 msgid "e.g. John"
 msgstr "напр., John"
+
+#. module: partner_firstname_auth_signup
+#. odoo-python
+#: code:addons/partner_firstname_auth_signup/controllers/main.py:0
+msgid "Please provide a firstname or a lastname."
+msgstr "Будь ласка, вкажіть ім’я або прізвище."

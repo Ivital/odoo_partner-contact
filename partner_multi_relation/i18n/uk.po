@@ -22,7 +22,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_all.py:0
 msgid "%s partner incompatible with relation type."
-msgstr ""
+msgstr "Партнер %s несумісний із типом зв’язку."
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__active
@@ -243,13 +243,13 @@ msgstr "Назва"
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_all.py:0
 msgid "No %s partner available for relation type."
-msgstr ""
+msgstr "Немає доступного партнера %s для цього типу зв’язку."
 
 #. module: partner_multi_relation
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_all.py:0
 msgid "No relation type specified in vals: %s."
-msgstr ""
+msgstr "У vals не вказано тип зв’язку: %s."
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__this_partner_id
@@ -261,7 +261,7 @@ msgstr "Один партнер"
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_type.py:0
 msgid "Organisation"
-msgstr ""
+msgstr "Організація"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__other_partner_id
@@ -303,7 +303,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation.py:0
 msgid "Partners cannot have a relation with themselves."
-msgstr ""
+msgstr "Партнери не можуть мати зв’язок самі з собою."
 
 #. module: partner_multi_relation
 #. odoo-python
@@ -318,6 +318,8 @@ msgid ""
 "Programming error: Argument \"side\" of method \"_check_partner\" can just "
 "be called with a value of \"left\" or \"right\"."
 msgstr ""
+"Помилка програмування: аргумент «side» методу «_check_partner» можна "
+"викликати лише зі значенням «left» або «right»."
 
 #. module: partner_multi_relation
 #: model_terms:ir.ui.view,arch_db:partner_multi_relation.form_res_partner_relation_type
@@ -353,6 +355,8 @@ msgid ""
 "Reflexivity could not be disabled for the relation type %s. There are "
 "existing reflexive relations defined for the following partners: %s"
 msgstr ""
+"Рефлексивність не вдалося вимкнути для типу зв’язку %s. Існують рефлексивні "
+"зв’язки для партнерів: %s"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner__relation_count
@@ -374,7 +378,7 @@ msgstr "Типи зв’язків"
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_all.py:0
 msgid "Relation type incompatible with selected partner(s)."
-msgstr ""
+msgstr "Тип зв’язку несумісний із вибраним партнером(ами)."
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner__search_relation_date
@@ -456,13 +460,13 @@ msgstr "Симетричний"
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation.py:0
 msgid "The %s partner does not have category %s."
-msgstr ""
+msgstr "Партнер %s не має категорії %s."
 
 #. module: partner_multi_relation
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation.py:0
 msgid "The %s partner is not applicable for this relation type."
-msgstr ""
+msgstr "Партнер %s не застосовується до цього типу зв’язку."
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,help:partner_multi_relation.field_res_partner_relation_all__res_model
@@ -478,7 +482,7 @@ msgstr "ID об’єкта в моделі, на якій базується ц�
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation.py:0
 msgid "The starting date cannot be after the ending date."
-msgstr ""
+msgstr "Дата початку не може бути пізнішою за дату завершення."
 
 #. module: partner_multi_relation
 #. odoo-python
@@ -487,12 +491,13 @@ msgid ""
 "There are already relations not satisfying the conditions for partner type "
 "or category."
 msgstr ""
+"Уже існують зв’язки, що не відповідають умовам типу партнера або категорії."
 
 #. module: partner_multi_relation
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation.py:0
 msgid "There is already a similar relation with overlapping dates"
-msgstr ""
+msgstr "Уже існує подібний зв’язок із датами, що перекриваються"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,help:partner_multi_relation.field_res_partner_relation_type__allow_self
@@ -520,7 +525,7 @@ msgstr "Тип базового зв’язку"
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner.py:0
 msgid "Unsupported search operator \"%s\""
-msgstr ""
+msgstr "Непідтримуваний оператор пошуку \"%s\""
 
 #. module: partner_multi_relation
 #: model:res.partner.category,name:partner_multi_relation.res_partner_category_pmr_0
@@ -557,13 +562,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_all.py:0
 msgid "other"
-msgstr ""
+msgstr "інший"
 
 #. module: partner_multi_relation
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_all.py:0
 msgid "this"
-msgstr ""
+msgstr "цей"
 
 #~ msgid "Last Modified on"
 #~ msgstr "Остання модифікація"

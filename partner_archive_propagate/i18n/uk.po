@@ -165,3 +165,25 @@ msgstr ""
 #: model:ir.model,name:partner_archive_propagate.model_res_partner_archive_propagate_line
 msgid "Partner Archive Propagate Line"
 msgstr "Рядок поширення архівації партнера"
+
+#. module: partner_archive_propagate
+#. odoo-python
+#: code:addons/partner_archive_propagate/models/res_partner.py:0
+msgid ""
+"Skipped archiving the following contacts because they are linked to active "
+"users: %s"
+msgstr ""
+"Архівування таких контактів пропущено, оскільки вони пов’язані з активними "
+"користувачами: %s"
+
+#. module: partner_archive_propagate
+#. odoo-python
+#: code:addons/partner_archive_propagate/wizard/archive_propagate_wizard.py:0
+msgid "Skipped contacts linked to active users: %s"
+msgstr "Пропущено контакти, пов’язані з активними користувачами: %s"
+
+#. module: partner_archive_propagate
+#. odoo-python
+#: code:addons/partner_archive_propagate/wizard/archive_propagate_wizard.py:0
+msgid "Some contacts were skipped"
+msgstr "Деякі контакти пропущено"

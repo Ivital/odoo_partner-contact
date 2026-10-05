@@ -37,3 +37,9 @@ msgstr "Лише компанії"
 #: model:ir.model.fields,field_description:partner_ref_unique.field_res_company__partner_ref_unique
 msgid "Unique partner reference for"
 msgstr "Унікальне посилання контрагента для"
+
+#. module: partner_ref_unique
+#. odoo-python
+#: code:addons/partner_ref_unique/models/res_partner.py:0
+msgid "This reference is equal to partner '%s'"
+msgstr "Це посилання збігається з партнером «%s»"
