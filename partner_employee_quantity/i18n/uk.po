@@ -90,7 +90,7 @@ msgstr ""
 #: model:ir.model.fields,help:partner_employee_quantity.field_res_partner__employee_quantity_range_id
 #: model:ir.model.fields,help:partner_employee_quantity.field_res_users__employee_quantity_range_id
 msgid "Range of this partner depending on the employee quantity."
-msgstr ""
+msgstr "Діапазон цього контрагента залежно від кількості працівників."
 
 #. module: partner_employee_quantity
 #: model:ir.actions.act_window,name:partner_employee_quantity.employees_range_action

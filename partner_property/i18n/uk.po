@@ -30,3 +30,13 @@ msgstr "Властивості типу «Компанія»"
 #: model:ir.model.fields,field_description:partner_property.field_res_users__properties_type_person
 msgid "Properties Type Person"
 msgstr "Властивості типу «Фізична особа»"
+
+#. module: partner_property
+#: model:ir.model.fields,field_description:partner_property.field_res_company__partner_properties_definition_company
+msgid "Partner Properties (company)"
+msgstr "Властивості контрагента (компанія)"
+
+#. module: partner_property
+#: model:ir.model.fields,field_description:partner_property.field_res_company__partner_properties_definition_person
+msgid "Partner Properties (person)"
+msgstr "Властивості контрагента (особа)"

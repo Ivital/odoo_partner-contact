@@ -51,3 +51,14 @@ msgstr "Стан"
 #: model:ir.model.fields,field_description:partner_contact_birthplace.field_res_users__birth_country_id
 msgid "Birth country"
 msgstr "Країна народження"
+
+#. module: partner_contact_birthplace
+#: model_terms:ir.ui.view,arch_db:partner_contact_birthplace.view_personal_information_birthplace
+msgid ""
+"<span class=\"o_form_label o_td_label o_address_type\">\n"
+"                    Birth Place\n"
+"                </span>"
+msgstr ""
+"<span class=\"o_form_label o_td_label o_address_type\">\n"
+"                    Місце народження\n"
+"                </span>"

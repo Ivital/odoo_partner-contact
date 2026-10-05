@@ -23,3 +23,8 @@ msgstr "Активний"
 #: model_terms:ir.ui.view,arch_db:partner_title_active.view_partner_title_search
 msgid "Archived"
 msgstr "Архівовано"
+
+#. module: partner_title_active
+#: model_terms:ir.ui.view,arch_db:partner_title_active.view_partner_title_search
+msgid "Search Partner Titles"
+msgstr "Пошук звертань партнерів"

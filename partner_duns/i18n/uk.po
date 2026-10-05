@@ -18,3 +18,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:partner_duns.field_res_users__same_duns_partner_id
 msgid "Partner with same DUNS"
 msgstr "Контрагент із тим самим DUNS"
+
+#. module: partner_duns
+#: model_terms:ir.ui.view,arch_db:partner_duns.view_partner_form
+msgid "A partner with the same DUNS number already exists ("
+msgstr "Контрагент із таким самим номером DUNS уже існує ("
+
+#. module: partner_duns
+#: model:ir.model.fields,help:partner_duns.field_res_partner__duns
+#: model:ir.model.fields,help:partner_duns.field_res_users__duns
+msgid "Data Universal Numbering System"
+msgstr "Універсальна система нумерації даних"

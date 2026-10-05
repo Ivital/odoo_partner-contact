@@ -24,3 +24,13 @@ msgstr "Клієнти"
 #: model:ir.model.fields,field_description:partner_pricelist_search.field_res_users__property_product_pricelist
 msgid "Pricelist"
 msgstr "Прайс-лист"
+
+#. module: partner_pricelist_search
+#: model:ir.model.fields,help:partner_pricelist_search.field_res_partner__property_product_pricelist
+#: model:ir.model.fields,help:partner_pricelist_search.field_res_users__property_product_pricelist
+msgid ""
+"This pricelist will be used, instead of the default one, for sales to the "
+"current partner"
+msgstr ""
+"Цей прайс-лист використовуватиметься замість типового для продажів поточному"
+" контрагенту"

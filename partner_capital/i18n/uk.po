@@ -63,7 +63,7 @@ msgstr ""
 #: model:ir.model.fields,help:partner_capital.field_res_partner__capital_country_id
 #: model:ir.model.fields,help:partner_capital.field_res_users__capital_country_id
 msgid "Country of origin of this company's capital."
-msgstr ""
+msgstr "Країна походження капіталу цієї компанії."
 
 #. module: partner_capital
 #: model:ir.model.fields,field_description:partner_capital.field_res_partner_turnover_range__create_uid
@@ -119,7 +119,7 @@ msgstr "Назва"
 #: model:ir.model.fields,help:partner_capital.field_res_partner__capital_amount
 #: model:ir.model.fields,help:partner_capital.field_res_users__capital_amount
 msgid "Publicly registered capital amount."
-msgstr ""
+msgstr "Розмір публічно зареєстрованого статутного капіталу."
 
 #. module: partner_capital
 #: model:ir.model.fields.selection,name:partner_capital.selection__res_partner__company_size__small

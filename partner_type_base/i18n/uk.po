@@ -36,3 +36,27 @@ msgstr "Адреса лише для читання"
 #: model:ir.model.fields,field_description:partner_type_base.field_res_users__is_individual
 msgid "Is Individual"
 msgstr "Є фізичною особою"
+
+#. module: partner_type_base
+#: model:ir.model.fields,help:partner_type_base.field_res_partner__is_address_readonly
+#: model:ir.model.fields,help:partner_type_base.field_res_users__is_address_readonly
+msgid "If true, the address fields are readonly."
+msgstr "Якщо true, поля адреси доступні лише для читання."
+
+#. module: partner_type_base
+#: model:ir.model.fields,help:partner_type_base.field_res_partner__can_be_parent
+#: model:ir.model.fields,help:partner_type_base.field_res_users__can_be_parent
+msgid "If true, the partner is available as parent."
+msgstr "Якщо true, контрагента можна вибирати як батьківського."
+
+#. module: partner_type_base
+#: model:ir.model.fields,help:partner_type_base.field_res_partner__is_individual
+#: model:ir.model.fields,help:partner_type_base.field_res_users__is_individual
+msgid "If true, the partner name is splitted."
+msgstr "Якщо true, ім'я контрагента розділяється."
+
+#. module: partner_type_base
+#: model:ir.model.fields,help:partner_type_base.field_res_partner__can_be_child
+#: model:ir.model.fields,help:partner_type_base.field_res_users__can_be_child
+msgid "If true, the partner_id field is available."
+msgstr "Якщо true, поле partner_id доступне."

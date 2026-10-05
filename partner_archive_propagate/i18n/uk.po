@@ -113,3 +113,50 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields,field_description:partner_archive_propagate.field_res_users__show_prop_wizard_button
 msgid "Show Prop Wizard Button"
 msgstr "Показувати кнопку майстра властивостей"
+
+#. module: partner_archive_propagate
+#: model_terms:ir.ui.view,arch_db:partner_archive_propagate.view_partner_form_inherit_archive_propagate
+msgid "Archive Contact and Children"
+msgstr "Архівувати контакт і дочірні записи"
+
+#. module: partner_archive_propagate
+#: model:ir.model.fields,field_description:partner_archive_propagate.field_res_partner_archive_propagate_wizard__line_ids
+msgid "Contacts to archive"
+msgstr "Контакти для архівування"
+
+#. module: partner_archive_propagate
+#: model_terms:ir.ui.view,arch_db:partner_archive_propagate.view_res_config_settings_partner_archive
+msgid "Force partner archive propagation outside UI"
+msgstr "Примусово поширювати архівацію контрагента поза UI"
+
+#. module: partner_archive_propagate
+#: model:ir.model.fields,field_description:partner_archive_propagate.field_res_config_settings__partner_archive_force_outside_ui
+msgid "Force propagation outside UI"
+msgstr "Примусове поширення поза UI"
+
+#. module: partner_archive_propagate
+#: model:ir.model.fields,help:partner_archive_propagate.field_res_partner__show_prop_wizard_button
+#: model:ir.model.fields,help:partner_archive_propagate.field_res_users__show_prop_wizard_button
+msgid "Show or hide the wizard button, depending on child_ids"
+msgstr "Показувати або приховувати кнопку майстра залежно від child_ids"
+
+#. module: partner_archive_propagate
+#: model:ir.model.fields,help:partner_archive_propagate.field_res_partner__propagated_from_id
+#: model:ir.model.fields,help:partner_archive_propagate.field_res_users__propagated_from_id
+msgid ""
+"Technical field. Set when this partner was archived automatically because "
+"the source partner was archived. Cleared again when it is unarchived by the "
+"opposite propagation."
+msgstr ""
+"Технічне поле. Установлюється, коли цього контрагента автоматично архівовано"
+" через архівування вихідного контрагента. Знову очищується, коли його "
+"розархівовано зворотним поширенням."
+
+#. module: partner_archive_propagate
+#: model_terms:ir.ui.view,arch_db:partner_archive_propagate.view_archive_propagate_wizard_form
+msgid ""
+"The following contact-type descendants will be archived as well.\n"
+"                        Remove any you want to keep active."
+msgstr ""
+"Наведені дочірні контакти також буде архівовано.\n"
+"                        Видаліть зі списку ті, які потрібно залишити активними."

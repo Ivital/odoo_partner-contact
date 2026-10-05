@@ -30,3 +30,21 @@ msgstr "Днів до наступного замовлення"
 #: model:ir.model.fields,field_description:sale_customer_order_frequency.field_res_users__days_since_last_order
 msgid "Days Since Last Order"
 msgstr "Днів від останнього замовлення"
+
+#. module: sale_customer_order_frequency
+#: model:ir.model.fields,help:sale_customer_order_frequency.field_res_partner__average_order_duration
+#: model:ir.model.fields,help:sale_customer_order_frequency.field_res_users__average_order_duration
+msgid "Average number of days between orders"
+msgstr "Середня кількість днів між замовленнями"
+
+#. module: sale_customer_order_frequency
+#: model:ir.model.fields,help:sale_customer_order_frequency.field_res_partner__days_until_next_order
+#: model:ir.model.fields,help:sale_customer_order_frequency.field_res_users__days_until_next_order
+msgid "Number of days before the next theoretical order"
+msgstr "Кількість днів до наступного теоретичного замовлення"
+
+#. module: sale_customer_order_frequency
+#: model:ir.model.fields,help:sale_customer_order_frequency.field_res_partner__days_since_last_order
+#: model:ir.model.fields,help:sale_customer_order_frequency.field_res_users__days_since_last_order
+msgid "Number of days since the last order"
+msgstr "Кількість днів від останнього замовлення"

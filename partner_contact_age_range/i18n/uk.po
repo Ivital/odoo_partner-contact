@@ -70,3 +70,17 @@ msgstr "Останнє оновлення"
 #: model_terms:ir.ui.view,arch_db:partner_contact_age_range.view_partner_age_range_form
 msgid "Partner Age Range"
 msgstr "Віковий діапазон контрагента"
+
+#. module: partner_contact_age_range
+#: model:ir.actions.server,name:partner_contact_age_range.ir_cron_partner_age_range_ir_actions_server
+msgid "Contact: Update Age Range"
+msgstr "Контакт: оновити віковий діапазон"
+
+#. module: partner_contact_age_range
+#: model_terms:ir.actions.act_window,help:partner_contact_age_range.action_partner_age_range
+msgid ""
+"Manage the contact age range you want to have available in your system.\n"
+"            For eg: 0-10, 11-20"
+msgstr ""
+"Керуйте віковими діапазонами контактів, які мають бути доступні у вашій системі.\n"
+"            Наприклад: 0–10, 11–20"

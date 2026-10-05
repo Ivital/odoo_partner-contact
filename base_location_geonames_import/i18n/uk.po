@@ -30,6 +30,8 @@ msgid ""
 ", create new location entries if not found already in the system, and "
 "<b>delete missing entries</b> from new file."
 msgstr ""
+", створити нові записи місць, якщо їх ще немає в системі, та <b>видалити "
+"відсутні записи</b> з нового файлу."
 
 #. module: base_location_geonames_import
 #: model_terms:ir.ui.view,arch_db:base_location_geonames_import.city_zip_geonames_import_form
@@ -74,16 +76,17 @@ msgid ""
 "For the selected country, this wizard will download the latest version of "
 "the list of cities from"
 msgstr ""
+"Для вибраної країни цей майстер завантажить останню версію списку міст із"
 
 #. module: base_location_geonames_import
 #: model:ir.model.fields,field_description:base_location_geonames_import.field_res_country__geonames_state_code_column
 msgid "Geonames State Code Column"
-msgstr ""
+msgstr "Стовпець коду області Geonames"
 
 #. module: base_location_geonames_import
 #: model:ir.model.fields,field_description:base_location_geonames_import.field_res_country__geonames_state_name_column
 msgid "Geonames State Name Column"
-msgstr ""
+msgstr "Стовпець назви області Geonames"
 
 #. module: base_location_geonames_import
 #. odoo-python

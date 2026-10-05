@@ -77,3 +77,19 @@ msgstr "Перевірене повідомлення"
 #: model:ir.model.fields,field_description:partner_tier_validation.field_res_partner__validation_status
 msgid "Validation Status"
 msgstr "Статус перевірки"
+
+#. module: partner_tier_validation
+#: model:ir.model.fields,help:partner_tier_validation.field_res_partner__has_comment
+msgid "If set, Allow the reviewer to leave a comment on the review."
+msgstr ""
+"Якщо встановлено, дозволити рецензенту залишати коментар до перевірки."
+
+#. module: partner_tier_validation
+#: model_terms:ir.ui.view,arch_db:partner_tier_validation.partner_form_tier_filter
+msgid "Needs my Approval"
+msgstr "Потребує мого затвердження"
+
+#. module: partner_tier_validation
+#: model_terms:ir.ui.view,arch_db:partner_tier_validation.partner_form_tier_filter
+msgid "Partner(s) to Approve"
+msgstr "Партнери для затвердження"

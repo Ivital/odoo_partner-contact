@@ -40,3 +40,18 @@ msgstr "Фільтрувати дубльовані електронні адр�
 #: model_terms:ir.ui.view,arch_db:partner_email_check.view_general_configuration
 msgid "Values set here are company-specific."
 msgstr "Значення, задані тут, є специфічними для компанії."
+
+#. module: partner_email_check
+#: model_terms:ir.ui.view,arch_db:partner_email_check.view_general_configuration
+msgid "Ensure that partner email addresses can be delivered to"
+msgstr "Переконатися, що email-адреси контрагентів доставні"
+
+#. module: partner_email_check
+#: model_terms:ir.ui.view,arch_db:partner_email_check.view_general_configuration
+msgid "Require partner email addresses to be unique"
+msgstr "Вимагати унікальності email-адрес контрагентів"
+
+#. module: partner_email_check
+#: model_terms:ir.ui.view,arch_db:partner_email_check.view_general_configuration
+msgid "Require partner email addresses to have valid syntax"
+msgstr "Вимагати коректний синтаксис email-адрес контрагентів"

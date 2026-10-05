@@ -32,3 +32,8 @@ msgstr "Немає"
 #: model:ir.model.fields.selection,name:partner_ref_unique.selection__res_company__partner_ref_unique__companies
 msgid "Only companies"
 msgstr "Лише компанії"
+
+#. module: partner_ref_unique
+#: model:ir.model.fields,field_description:partner_ref_unique.field_res_company__partner_ref_unique
+msgid "Unique partner reference for"
+msgstr "Унікальне посилання контрагента для"

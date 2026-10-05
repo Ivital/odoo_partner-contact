@@ -41,7 +41,7 @@ msgstr "Назва для відображення"
 #. module: partner_industry_secondary
 #: model_terms:ir.ui.view,arch_db:partner_industry_secondary.res_config_settings_view_form
 msgid "Enable industries for individuals"
-msgstr ""
+msgstr "Увімкнути галузі для фізичних осіб"
 
 #. module: partner_industry_secondary
 #. odoo-python

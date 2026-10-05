@@ -73,3 +73,40 @@ msgstr "З електронною поштою"
 #: model_terms:ir.ui.view,arch_db:partner_noncommercial.view_partner_form
 msgid "e.g. Unicef"
 msgstr "напр., Unicef"
+
+#. module: partner_noncommercial
+#: model_terms:ir.ui.view,arch_db:partner_noncommercial.view_partner_form
+msgid "<span>Other address for the organization</span>"
+msgstr "<span>Інша адреса організації</span>"
+
+#. module: partner_noncommercial
+#: model_terms:ir.ui.view,arch_db:partner_noncommercial.view_partner_form
+msgid ""
+"<span>Preferred address for all deliveries. Selected by default when you "
+"deliver an order that belongs to this organization.</span>"
+msgstr ""
+"<span>Бажана адреса для всіх доставок. Вибирається за замовчуванням під час "
+"доставки замовлення цієї організації.</span>"
+
+#. module: partner_noncommercial
+#: model_terms:ir.ui.view,arch_db:partner_noncommercial.view_partner_form
+msgid ""
+"<span>Preferred address for all invoices. Selected by default when you "
+"invoice an order that belongs to this organization.</span>"
+msgstr ""
+"<span>Бажана адреса для всіх рахунків. Вибирається за замовчуванням під час "
+"виставлення рахунку за замовленням цієї організації.</span>"
+
+#. module: partner_noncommercial
+#: model_terms:ir.ui.view,arch_db:partner_noncommercial.view_partner_form
+msgid ""
+"<span>Use this to organize the contact details of members of a given "
+"organization</span>"
+msgstr ""
+"<span>Використовуйте це для організації контактних даних членів певної "
+"організації</span>"
+
+#. module: partner_noncommercial
+#: model_terms:ir.ui.view,arch_db:partner_noncommercial.view_partner_form
+msgid "e.g. Board Member"
+msgstr "напр. Член правління"

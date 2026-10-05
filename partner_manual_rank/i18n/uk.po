@@ -34,3 +34,20 @@ msgstr "Є постачальником"
 #: model_terms:ir.ui.view,arch_db:partner_manual_rank.view_res_partner_filter
 msgid "Suppliers"
 msgstr "Постачальники"
+
+#. module: partner_manual_rank
+#: model:ir.model.fields,field_description:partner_manual_rank.field_res_config_settings__partner_rank_auto
+msgid "Automatic Partner Rank Management"
+msgstr "Автоматичне керування рейтингом контрагентів"
+
+#. module: partner_manual_rank
+#: model_terms:ir.ui.view,arch_db:partner_manual_rank.res_config_settings_view_form
+msgid "Automatically rank partners as customers or suppliers"
+msgstr "Автоматично ранжувати контрагентів як клієнтів або постачальників"
+
+#. module: partner_manual_rank
+#: model_terms:ir.ui.view,arch_db:partner_manual_rank.res_config_settings_view_form
+msgid "Automatically rank partners when sale or purchase invoices are posted"
+msgstr ""
+"Автоматично ранжувати партнерів під час проведення рахунків продажу або "
+"закупівлі"

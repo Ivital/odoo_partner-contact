@@ -35,3 +35,26 @@ msgstr "Телефонні дзвінки"
 #: model:ir.model.fields,field_description:partner_phonecall_schedule.field_res_users__phonecall_calendar_ids
 msgid "Phonecall schedule"
 msgstr "Розклад телефонних дзвінків"
+
+#. module: partner_phonecall_schedule
+#: model:ir.model.fields,help:partner_phonecall_schedule.field_res_partner__phonecall_calendar_attendance_ids
+#: model:ir.model.fields,help:partner_phonecall_schedule.field_res_users__phonecall_calendar_attendance_ids
+msgid "Aggregation of all available phonecall schedules."
+msgstr "Агрегація всіх доступних розкладів телефонних дзвінків."
+
+#. module: partner_phonecall_schedule
+#: model_terms:ir.ui.view,arch_db:partner_phonecall_schedule.view_res_partner_filter
+msgid "Available for phone calls now"
+msgstr "Зараз доступний для телефонних дзвінків"
+
+#. module: partner_phonecall_schedule
+#: model:ir.model.fields,help:partner_phonecall_schedule.field_res_partner__phonecall_calendar_ids
+#: model:ir.model.fields,help:partner_phonecall_schedule.field_res_users__phonecall_calendar_ids
+msgid "Best schedule when the contact expects to be called."
+msgstr "Найкращий розклад для часу, коли контакт очікує дзвінка."
+
+#. module: partner_phonecall_schedule
+#: model:ir.model.fields,help:partner_phonecall_schedule.field_res_partner__phonecall_available
+#: model:ir.model.fields,help:partner_phonecall_schedule.field_res_users__phonecall_available
+msgid "Is it now a good time to call this partner?"
+msgstr "Чи зручно зараз телефонувати цьому контрагенту?"

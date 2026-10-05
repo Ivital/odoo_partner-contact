@@ -18,3 +18,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:partner_supplier_ref_sequence.field_res_users__supplier_ref
 msgid "Supplier Reference"
 msgstr "Посилання постачальника"
+
+#. module: partner_supplier_ref_sequence
+#: model:ir.model.fields,help:partner_supplier_ref_sequence.field_res_partner__supplier_ref
+#: model:ir.model.fields,help:partner_supplier_ref_sequence.field_res_users__supplier_ref
+msgid "Supplier reference given to this partner."
+msgstr "Посилання постачальника, надане цьому контрагенту."

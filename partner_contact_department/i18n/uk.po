@@ -21,7 +21,7 @@ msgstr ""
 #. module: partner_contact_department
 #: model:ir.model.fields,field_description:partner_contact_department.field_res_partner_department__child_ids
 msgid "Child departments"
-msgstr ""
+msgstr "Дочірні відділи"
 
 #. module: partner_contact_department
 #: model:ir.model,name:partner_contact_department.model_res_partner
@@ -92,4 +92,4 @@ msgstr "Батьківський шлях"
 #. module: partner_contact_department
 #: model:ir.model.fields,field_description:partner_contact_department.field_res_partner_department__parent_id
 msgid "Parent department"
-msgstr ""
+msgstr "Батьківський відділ"

@@ -58,7 +58,7 @@ msgstr "Дата створення"
 #. module: partner_external_map
 #: model_terms:ir.ui.view,arch_db:partner_external_map.res_config_settings_view_form
 msgid "Default External Map"
-msgstr ""
+msgstr "Зовнішня карта за замовчуванням"
 
 #. module: partner_external_map
 #: model:ir.model.fields,field_description:partner_external_map.field_map_website__display_name
@@ -189,12 +189,12 @@ msgstr "Вебсайт карти маршруту"
 #. module: partner_external_map
 #: model:ir.model.fields,field_description:partner_external_map.field_map_website__route_lat_lon_url
 msgid "Route URL that uses latitude and longitude"
-msgstr ""
+msgstr "URL маршруту, що використовує широту та довготу"
 
 #. module: partner_external_map
 #: model:ir.model.fields,field_description:partner_external_map.field_map_website__route_address_url
 msgid "Route URL that uses the addresses"
-msgstr ""
+msgstr "URL маршруту, що використовує адреси"
 
 #. module: partner_external_map
 #: model:ir.model.fields,field_description:partner_external_map.field_map_website__sequence
@@ -204,22 +204,22 @@ msgstr "Послідовність"
 #. module: partner_external_map
 #: model:ir.model.fields,field_description:partner_external_map.field_res_users__context_route_start_partner_id
 msgid "Start Address for Route Map"
-msgstr ""
+msgstr "Початкова адреса для карти маршруту"
 
 #. module: partner_external_map
 #: model_terms:ir.ui.view,arch_db:partner_external_map.res_config_settings_view_form
 msgid "System wide default map providers."
-msgstr ""
+msgstr "Системні постачальники карт за замовчуванням."
 
 #. module: partner_external_map
 #: model:ir.model.fields,field_description:partner_external_map.field_map_website__lat_lon_url
 msgid "URL that uses latitude and longitude"
-msgstr ""
+msgstr "URL, що використовує широту й довготу"
 
 #. module: partner_external_map
 #: model:ir.model.fields,field_description:partner_external_map.field_map_website__address_url
 msgid "URL that uses the address"
-msgstr ""
+msgstr "URL, що використовує адресу"
 
 #. module: partner_external_map
 #: model:ir.model,name:partner_external_map.model_res_users

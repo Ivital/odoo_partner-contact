@@ -48,7 +48,7 @@ msgstr "Усі зв'язки з поточним контрагентом"
 #. module: partner_multi_relation
 #: model:ir.model.fields.selection,name:partner_multi_relation.selection__res_partner_relation_type__handle_invalid_onchange__ignore
 msgid "Allow existing relations that do not fit changed conditions"
-msgstr ""
+msgstr "Дозволити наявні зв’язки, що не відповідають зміненим умовам"
 
 #. module: partner_multi_relation
 #: model:ir.model,name:partner_multi_relation.model_res_partner
@@ -70,22 +70,22 @@ msgstr "Дата створення"
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type_selection__partner_category_this
 msgid "Current record's category"
-msgstr ""
+msgstr "Категорія поточного запису"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type_selection__contact_type_this
 msgid "Current record's partner type"
-msgstr ""
+msgstr "Тип контрагента поточного запису"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields.selection,name:partner_multi_relation.selection__res_partner_relation_type__handle_invalid_onchange__delete
 msgid "Delete relations that do not fit changed conditions"
-msgstr ""
+msgstr "Видалити зв’язки, що не відповідають зміненим умовам"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation__right_partner_id
 msgid "Destination Partner"
-msgstr ""
+msgstr "Партнер призначення"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation__display_name
@@ -98,12 +98,12 @@ msgstr "Назва для відображення"
 #. module: partner_multi_relation
 #: model:ir.model.fields.selection,name:partner_multi_relation.selection__res_partner_relation_type__handle_invalid_onchange__restrict
 msgid "Do not allow change that will result in invalid relations"
-msgstr ""
+msgstr "Не дозволяти зміни, що призведуть до недійсних зв’язків"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields.selection,name:partner_multi_relation.selection__res_partner_relation_type__handle_invalid_onchange__end
 msgid "End relations per today, if they do not fit changed conditions"
-msgstr ""
+msgstr "Завершити зв’язки сьогодні, якщо вони не відповідають зміненим умовам"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation__date_end
@@ -166,12 +166,12 @@ msgstr "ID"
 #. module: partner_multi_relation
 #: model_terms:ir.ui.view,arch_db:partner_multi_relation.search_res_partner_relation_all
 msgid "Include past records"
-msgstr ""
+msgstr "Включати минулі записи"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__handle_invalid_onchange
 msgid "Invalid relation handling"
-msgstr ""
+msgstr "Обробка недійсного зв’язку"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__name_inverse
@@ -216,17 +216,17 @@ msgstr "Останнє оновлення"
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__partner_category_left
 msgid "Left partner category"
-msgstr ""
+msgstr "Категорія лівого партнера"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__contact_type_left
 msgid "Left partner type"
-msgstr ""
+msgstr "Тип лівого партнера"
 
 #. module: partner_multi_relation
 #: model_terms:ir.ui.view,arch_db:partner_multi_relation.form_res_partner_relation_type
 msgid "Left side of relation"
-msgstr ""
+msgstr "Ліва сторона зв’язку"
 
 #. module: partner_multi_relation
 #: model_terms:ir.ui.view,arch_db:partner_multi_relation.search_res_partner_relation_all
@@ -272,12 +272,12 @@ msgstr "Інший контрагент"
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type_selection__partner_category_other
 msgid "Other record's category"
-msgstr ""
+msgstr "Категорія іншого запису"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type_selection__contact_type_other
 msgid "Other record's partner type"
-msgstr ""
+msgstr "Тип контрагента іншого запису"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__any_partner_id
@@ -292,7 +292,7 @@ msgstr ""
 #. module: partner_multi_relation
 #: model:ir.actions.act_window,name:partner_multi_relation.action_res_partner_relation_type
 msgid "Partner Relations Types"
-msgstr ""
+msgstr "Типи зв’язків контрагентів"
 
 #. module: partner_multi_relation
 #: model:ir.model,name:partner_multi_relation.model_res_partner_relation
@@ -331,6 +331,9 @@ msgid ""
 "                be linked to other partners with a type either directly\n"
 "                or inversely."
 msgstr ""
+"Записуйте й відстежуйте зв’язки партнерів. Зв’язки можуть\n"
+"                бути пов’язані з іншими партнерами певним типом прямо\n"
+"                або обернено."
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,help:partner_multi_relation.field_res_partner_relation_all__active
@@ -390,7 +393,7 @@ msgstr "Зв’язки"
 #. module: partner_multi_relation
 #: model_terms:ir.ui.view,arch_db:partner_multi_relation.search_res_partner_relation_all
 msgid "Relationship Type"
-msgstr ""
+msgstr "Тип зв’язку"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__res_id
@@ -405,17 +408,17 @@ msgstr "Модель ресурсу"
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__partner_category_right
 msgid "Right partner category"
-msgstr ""
+msgstr "Категорія правого контрагента"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__contact_type_right
 msgid "Right partner type"
-msgstr ""
+msgstr "Тип правого партнера"
 
 #. module: partner_multi_relation
 #: model_terms:ir.ui.view,arch_db:partner_multi_relation.form_res_partner_relation_type
 msgid "Right side of relation"
-msgstr ""
+msgstr "Права сторона зв’язку"
 
 #. module: partner_multi_relation
 #: model_terms:ir.ui.view,arch_db:partner_multi_relation.search_res_partner_relation_all
@@ -425,12 +428,12 @@ msgstr "Справа наліво"
 #. module: partner_multi_relation
 #: model_terms:ir.ui.view,arch_db:partner_multi_relation.search_res_partner_relation_all
 msgid "Search Relations"
-msgstr ""
+msgstr "Пошук зв’язків"
 
 #. module: partner_multi_relation
 #: model:ir.actions.act_window,name:partner_multi_relation.action_show_partner_multi_relation
 msgid "Show partner's relations"
-msgstr ""
+msgstr "Показувати зв’язки контрагента"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation__left_partner_id
@@ -510,7 +513,7 @@ msgstr "Тип"
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__type_id
 msgid "Underlying Relation Type"
-msgstr ""
+msgstr "Тип базового зв’язку"
 
 #. module: partner_multi_relation
 #. odoo-python

@@ -18,3 +18,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:partner_search_alias.field_res_users__search_alias
 msgid "Search Alias"
 msgstr "Псевдонім пошуку"
+
+#. module: partner_search_alias
+#: model:ir.model.fields,help:partner_search_alias.field_res_partner__search_alias
+#: model:ir.model.fields,help:partner_search_alias.field_res_users__search_alias
+msgid "Enter the name that is also used for name search."
+msgstr "Введіть назву, яка також використовуватиметься для пошуку за назвою."

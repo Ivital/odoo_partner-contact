@@ -109,6 +109,10 @@ msgid ""
 "            separately\n"
 "            to enforce any address of it to have a city in this list."
 msgstr ""
+"Відображайте та керуйте списком усіх міст, які можна призначати\n"
+"            записам контрагентів. Зверніть увагу, що для кожної країни можна окремо\n"
+"            встановити параметр,\n"
+"            який вимагатиме, щоб у кожній її адресі місто було вибране з цього списку."
 
 #. module: base_location
 #: model:ir.model.fields,field_description:base_location.field_res_company__country_enforce_cities
@@ -133,7 +137,7 @@ msgstr "Останнє оновлення"
 #. module: base_location
 #: model_terms:ir.ui.view,arch_db:base_location.view_partner_form
 msgid "Location completion"
-msgstr ""
+msgstr "Завершення місця"
 
 #. module: base_location
 #: model:ir.actions.act_window,name:base_location.action_zip_tree
@@ -232,7 +236,7 @@ msgstr "ZIP-архіви"
 #. module: base_location
 #: model:ir.model.fields,field_description:base_location.field_res_city__zip_ids
 msgid "Zips in this city"
-msgstr ""
+msgstr "Поштові індекси цього міста"
 
 #~ msgid "Last Modified on"
 #~ msgstr "Остання модифікація"

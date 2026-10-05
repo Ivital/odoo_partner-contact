@@ -91,3 +91,8 @@ msgstr "Нижнє поле"
 #: model:ir.actions.report,name:partner_label.report_res_partner_label
 msgid "Partner Labels"
 msgstr "Етикетки партнерів"
+
+#. module: partner_label
+#: model_terms:ir.ui.view,arch_db:partner_label.view_general_configuration
+msgid "Labels Configuration"
+msgstr "Налаштування етикеток"
