@@ -64,3 +64,10 @@ msgstr "Останнє оновлення"
 #: model:ir.model,name:partner_contact_role.model_res_partner_role
 msgid "Partner Role"
 msgstr "Роль контрагента"
+
+#. module: partner_contact_role
+#: model:ir.model.fields,help:partner_contact_role.field_res_partner_role__active
+msgid "By unchecking the active field, you may hide a role you will not use."
+msgstr ""
+"Знявши позначку активності, можна приховати роль, яку ви не "
+"використовуватимете."

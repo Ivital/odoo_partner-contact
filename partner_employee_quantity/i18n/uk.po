@@ -84,7 +84,7 @@ msgstr "Назва"
 #. module: partner_employee_quantity
 #: model:ir.model,name:partner_employee_quantity.model_res_partner_employee_quantity_range
 msgid "Partner employee quantity range"
-msgstr ""
+msgstr "Діапазон кількості працівників партнера"
 
 #. module: partner_employee_quantity
 #: model:ir.model.fields,help:partner_employee_quantity.field_res_partner__employee_quantity_range_id

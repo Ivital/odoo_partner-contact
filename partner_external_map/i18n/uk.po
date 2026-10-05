@@ -73,7 +73,7 @@ msgstr "ID"
 #. module: partner_external_map
 #: model:ir.model.fields,help:partner_external_map.field_map_website__address_url
 msgid "In this URL, {ADDRESS} will be replaced by the address."
-msgstr ""
+msgstr "У цій URL-адресі {ADDRESS} буде замінено адресою."
 
 #. module: partner_external_map
 #: model:ir.model.fields,help:partner_external_map.field_map_website__lat_lon_url
@@ -81,6 +81,8 @@ msgid ""
 "In this URL, {LATITUDE} and {LONGITUDE} will be replaced by the latitude and"
 " longitude (requires the module 'base_geolocalize')"
 msgstr ""
+"У цій URL-адресі {LATITUDE} і {LONGITUDE} буде замінено широтою й довготою "
+"(потрібен модуль 'base_geolocalize')"
 
 #. module: partner_external_map
 #: model:ir.model.fields,help:partner_external_map.field_map_website__route_address_url
@@ -88,6 +90,8 @@ msgid ""
 "In this URL, {START_ADDRESS} and {DEST_ADDRESS} will be replaced by the "
 "start and destination addresses."
 msgstr ""
+"У цій URL-адресі {START_ADDRESS} і {DEST_ADDRESS} буде замінено адресами "
+"початку та призначення."
 
 #. module: partner_external_map
 #: model:ir.model.fields,help:partner_external_map.field_map_website__route_lat_lon_url
@@ -96,6 +100,9 @@ msgid ""
 "{DEST_LONGITUDE} will be replaced by the latitude and longitude of the start"
 " and destination adresses (requires the module 'base_geolocalize')."
 msgstr ""
+"У цій URL-адресі {START_LATITUDE}, {START_LONGITUDE}, {DEST_LATITUDE} та "
+"{DEST_LONGITUDE} буде замінено широтою й довготою початкової та кінцевої "
+"адрес (потрібен модуль 'base_geolocalize')."
 
 #. module: partner_external_map
 #: model:ir.model.fields,field_description:partner_external_map.field_map_website__write_uid
@@ -138,6 +145,8 @@ msgid ""
 "Map provided used when you click on the car icon on the partner form to "
 "display an itinerary."
 msgstr ""
+"Використовувана карта, що відкривається натисканням значка автомобіля у "
+"формі партнера для показу маршруту."
 
 #. module: partner_external_map
 #: model_terms:ir.ui.view,arch_db:partner_external_map.view_users_form

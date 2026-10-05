@@ -115,7 +115,7 @@ msgstr "Дата завершення"
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_all.py:0
 msgid "Error!"
-msgstr ""
+msgstr "Помилка!"
 
 #. module: partner_multi_relation
 #: model_terms:ir.ui.view,arch_db:partner_multi_relation.search_res_partner_relation_all
@@ -182,7 +182,7 @@ msgstr "Зворотна назва"
 #: model:ir.model.fields,help:partner_multi_relation.field_res_partner_relation_all__is_inverse
 #: model:ir.model.fields,help:partner_multi_relation.field_res_partner_relation_type_selection__is_inverse
 msgid "Inverse relations are from right to left partner."
-msgstr ""
+msgstr "Зворотні зв’язки спрямовані від правого партнера до лівого."
 
 #. module: partner_multi_relation
 #: model:res.partner.relation.type,name:partner_multi_relation.rel_type_assistant
@@ -338,7 +338,7 @@ msgstr ""
 #. module: partner_multi_relation
 #: model:ir.model.fields,help:partner_multi_relation.field_res_partner_relation_all__active
 msgid "Records with date_end in the past are inactive"
-msgstr ""
+msgstr "Записи з date_end у минулому неактивні"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__allow_self
@@ -467,12 +467,12 @@ msgstr ""
 #. module: partner_multi_relation
 #: model:ir.model.fields,help:partner_multi_relation.field_res_partner_relation_all__res_model
 msgid "The database object this relation is based on."
-msgstr ""
+msgstr "Об’єкт бази даних, на якому базується цей зв’язок."
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,help:partner_multi_relation.field_res_partner_relation_all__res_id
 msgid "The id of the object in the model this relation is based on."
-msgstr ""
+msgstr "ID об’єкта в моделі, на якій базується цей зв’язок."
 
 #. module: partner_multi_relation
 #. odoo-python
@@ -498,11 +498,12 @@ msgstr ""
 #: model:ir.model.fields,help:partner_multi_relation.field_res_partner_relation_type__allow_self
 msgid "This relation can be set up with the same partner left and right"
 msgstr ""
+"Цей зв’язок можна налаштувати з тим самим партнером ліворуч і праворуч"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,help:partner_multi_relation.field_res_partner_relation_type__is_symmetric
 msgid "This relation is the same from right to left as from left to right"
-msgstr ""
+msgstr "Цей зв’язок однаковий справа наліво і зліва направо"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation__type_id
@@ -548,6 +549,9 @@ msgid ""
 "However when you change the criteria, there might be relations that do not fit the new criteria.\n"
 "Specify how this situation should be handled."
 msgstr ""
+"Під час додавання зв'язків перевіряються критерії, зокрема тип і категорія партнера.\n"
+"Однак після зміни критеріїв можуть залишитися зв'язки, які вже їм не відповідають.\n"
+"Укажіть, як слід обробляти таку ситуацію."
 
 #. module: partner_multi_relation
 #. odoo-python

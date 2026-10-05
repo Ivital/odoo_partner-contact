@@ -71,3 +71,8 @@ msgstr "Останнє оновлення"
 #: model:ir.actions.act_window,name:partner_priority.partner_priority_action
 msgid "Priority Action"
 msgstr "Дія пріоритету"
+
+#. module: partner_priority
+#: model:ir.model,name:partner_priority.model_partner_priority
+msgid "Partner Priority"
+msgstr "Пріоритет партнера"

@@ -22,3 +22,8 @@ msgstr "Позначте, якщо номер ПДВ має бути уніка�
 #: model:ir.model.fields,field_description:partner_vat_unique.field_res_config_settings__partner_vat_unique
 msgid "Unique VAT Constraint"
 msgstr "Обмеження унікальності ПДВ"
+
+#. module: partner_vat_unique
+#: model:ir.model.fields,help:partner_vat_unique.field_res_config_settings__partner_vat_unique
+msgid "Check this if you want to constrain VAT number to be unique."
+msgstr "Позначте, якщо потрібно вимагати унікальності номера ПДВ."

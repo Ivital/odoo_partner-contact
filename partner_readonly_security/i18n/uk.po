@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"PO-Revision-Date: 2026-10-05 16:45+0000\n"
 "Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -13,13 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#. module: partner_category_type
-#: model:ir.model.fields,field_description:partner_category_type.field_res_partner_category__category_type
-msgid "Type"
-msgstr "Тип"
-
-#. module: partner_category_type
-#. odoo-python
-#: code:addons/partner_category_type/models/res_partner_category.py:0
-msgid "Generic"
-msgstr "Загальний"
+#. module: partner_readonly_security
+#: model:res.groups,name:partner_readonly_security.group_partner_edition
+msgid "Partner edition"
+msgstr "Редагування партнера"

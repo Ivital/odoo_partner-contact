@@ -385,3 +385,163 @@ msgstr "Тип дії-винятку для запису."
 #: model:ir.model.fields,help:animal.field_animal__website_message_ids
 msgid "Website communication history"
 msgstr "Історія комунікації через вебсайт"
+
+#. module: animal
+#: model:ir.model,name:animal.model_animal_breed
+msgid "Animal Breeds"
+msgstr "Породи тварин"
+
+#. module: animal
+#: model:ir.model,name:animal.model_animal_color
+msgid "Animal Colors"
+msgstr "Кольори тварин"
+
+#. module: animal
+#: model:ir.model,name:animal.model_animal_species
+msgid "Animal Species"
+msgstr "Види тварин"
+
+#. module: animal
+#: model:animal.breed,name:animal.beagle
+msgid "Beagle"
+msgstr "Бігль"
+
+#. module: animal
+#: model:animal.species,name:animal.bird
+msgid "Bird"
+msgstr "Птах"
+
+#. module: animal
+#: model:animal.breed,name:animal.boxer
+msgid "Boxer"
+msgstr "Боксер"
+
+#. module: animal
+#: model:animal.breed,name:animal.bull_terrier
+msgid "Bull Terrier"
+msgstr "Бультер’єр"
+
+#. module: animal
+#: model:animal.breed,name:animal.bulldog
+msgid "Bulldog"
+msgstr "Бульдог"
+
+#. module: animal
+#: model:animal.species,name:animal.cat
+msgid "Cat"
+msgstr "Кіт"
+
+#. module: animal
+#: model:animal.breed,name:animal.chihuahua
+msgid "Chihuahua"
+msgstr "Чихуахуа"
+
+#. module: animal
+#: model:animal.breed,name:animal.cocker
+msgid "Cocker"
+msgstr "Кокер-спанієль"
+
+#. module: animal
+#: model:animal.breed,name:animal.collie
+msgid "Collie"
+msgstr "Колі"
+
+#. module: animal
+#: model:animal.breed,name:animal.dachshund
+msgid "Dachshund"
+msgstr "Такса"
+
+#. module: animal
+#: model:animal.breed,name:animal.dalmatian
+msgid "Dalmatian"
+msgstr "Далматин"
+
+#. module: animal
+#: model:animal.breed,name:animal.doberman
+msgid "Doberman"
+msgstr "Доберман"
+
+#. module: animal
+#: model:animal.species,name:animal.dog
+msgid "Dog"
+msgstr "Собака"
+
+#. module: animal
+#: model:animal.breed,name:animal.english_cocker_spaniel
+msgid "English Cocker Spaniel"
+msgstr "Англійський кокер-спанієль"
+
+#. module: animal
+#: model:animal.breed,name:animal.french_bulldog
+msgid "French Bulldog"
+msgstr "Французький бульдог"
+
+#. module: animal
+#: model:animal.breed,name:animal.german_shepard
+msgid "German Shepard"
+msgstr "Німецька вівчарка"
+
+#. module: animal
+#: model:animal.breed,name:animal.golden_retriever
+msgid "Golden Retriever"
+msgstr "Золотистий ретривер"
+
+#. module: animal
+#: model:animal.breed,name:animal.great_dane
+msgid "Great Dane"
+msgstr "Німецький дог"
+
+#. module: animal
+#: model:animal.breed,name:animal.jack_russell
+msgid "Jack Russell"
+msgstr "Джек-рассел-тер’єр"
+
+#. module: animal
+#: model:animal.breed,name:animal.labrador
+msgid "Labrador"
+msgstr "Лабрадор"
+
+#. module: animal
+#: model:animal.breed,name:animal.pomeranian
+msgid "Pomeranian"
+msgstr "Померанський шпіц"
+
+#. module: animal
+#: model:animal.breed,name:animal.pug
+msgid "Pug"
+msgstr "Мопс"
+
+#. module: animal
+#: model:animal.breed,name:animal.rottweiler
+msgid "Rottweiler"
+msgstr "Ротвейлер"
+
+#. module: animal
+#: model:animal.color,name:animal.salt
+msgid "Salt and pepper"
+msgstr "Сіль і перець"
+
+#. module: animal
+#: model:animal.breed,name:animal.schnauzer
+msgid "Schnauzer"
+msgstr "Шнауцер"
+
+#. module: animal
+#: model:animal.breed,name:animal.shih_tzu
+msgid "Shih Tzu"
+msgstr "Ши-тцу"
+
+#. module: animal
+#: model:animal.breed,name:animal.siberian_husky
+msgid "Siberian Husky"
+msgstr "Сибірський хаскі"
+
+#. module: animal
+#: model:ir.model.fields,help:animal.field_animal__image
+msgid "This field holds the photo of the animal."
+msgstr "Це поле містить фотографію тварини."
+
+#. module: animal
+#: model:animal.breed,name:animal.yorkshire_terrier
+msgid "Yorkshire Terrier"
+msgstr "Йоркширський тер’єр"

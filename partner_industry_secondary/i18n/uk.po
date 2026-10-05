@@ -92,6 +92,7 @@ msgstr "Сектор"
 #: model:ir.model.fields,help:partner_industry_secondary.field_res_config_settings__group_use_partner_industry_for_person
 msgid "Set if you want to be able to use industries for individuals also."
 msgstr ""
+"Установіть, якщо хочете використовувати галузі також для фізичних осіб."
 
 #. module: partner_industry_secondary
 #: model:ir.model.fields,field_description:partner_industry_secondary.field_res_partner__show_partner_industry_for_person

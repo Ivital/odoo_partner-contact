@@ -84,12 +84,12 @@ msgstr "Організаційно-правова форма"
 #. module: partner_company_type
 #: model:ir.model,name:partner_company_type.model_res_partner_company_type
 msgid "Partner Company Type"
-msgstr ""
+msgstr "Тип компанії-партнера"
 
 #. module: partner_company_type
 #: model:ir.model.constraint,message:partner_company_type.constraint_res_partner_company_type_name_uniq
 msgid "Partner Company Type already exists!"
-msgstr ""
+msgstr "Тип компанії-партнера вже існує!"
 
 #. module: partner_company_type
 #: model:ir.model.fields,field_description:partner_company_type.field_res_partner_company_type__name

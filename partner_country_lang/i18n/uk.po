@@ -17,3 +17,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:partner_country_lang.field_res_country__lang
 msgid "Enforce language"
 msgstr "Примусово встановити мову"
+
+#. module: partner_country_lang
+#: model:ir.model.fields,help:partner_country_lang.field_res_country__lang
+msgid "This country partners' language will be set to this value by default"
+msgstr ""
+"Мова партнерів цієї країни за замовчуванням буде встановлена в це значення"

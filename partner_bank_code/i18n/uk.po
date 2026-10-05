@@ -22,3 +22,8 @@ msgstr "Код банку"
 #: model:ir.model.fields,field_description:partner_bank_code.field_res_bank__bank_branch_code
 msgid "Bank Branch Code"
 msgstr "Код відділення банку"
+
+#. module: partner_bank_code
+#: model:ir.model.constraint,message:partner_bank_code.constraint_res_bank_bank_code_unique
+msgid "Bank and Branch Code should be unique."
+msgstr "Код банку та відділення має бути унікальним."

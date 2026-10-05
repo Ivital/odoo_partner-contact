@@ -160,3 +160,8 @@ msgid ""
 msgstr ""
 "Наведені дочірні контакти також буде архівовано.\n"
 "                        Видаліть зі списку ті, які потрібно залишити активними."
+
+#. module: partner_archive_propagate
+#: model:ir.model,name:partner_archive_propagate.model_res_partner_archive_propagate_line
+msgid "Partner Archive Propagate Line"
+msgstr "Рядок поширення архівації партнера"

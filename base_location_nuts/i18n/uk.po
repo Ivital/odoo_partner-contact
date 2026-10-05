@@ -103,7 +103,7 @@ msgstr "Імпортувати NUTS 2024 із SHOWVOC"
 #. module: base_location_nuts
 #: model:ir.model,name:base_location_nuts.model_nuts_import
 msgid "Import NUTS items from European ShowVoc service"
-msgstr ""
+msgstr "Імпортувати елементи NUTS із європейського сервісу ShowVoc"
 
 #. module: base_location_nuts
 #: model:ir.model.fields,field_description:base_location_nuts.field_nuts_import__write_uid
@@ -126,7 +126,7 @@ msgstr "Рівень"
 #. module: base_location_nuts
 #: model:ir.model.fields,help:base_location_nuts.field_res_country__state_level
 msgid "Level for the state NUTS category."
-msgstr ""
+msgstr "Рівень для категорії стану NUTS."
 
 #. module: base_location_nuts
 #: model_terms:ir.ui.view,arch_db:base_location_nuts.view_country_form

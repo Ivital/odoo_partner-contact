@@ -57,3 +57,8 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:partner_accreditation.field_res_partner_accreditation__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: partner_accreditation
+#: model:ir.model,name:partner_accreditation.model_res_partner_accreditation
+msgid "Configurable Accreditation for Partners"
+msgstr "Налаштовувана акредитація партнерів"

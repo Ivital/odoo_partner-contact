@@ -55,3 +55,21 @@ msgstr "Вимагати унікальності email-адрес контра�
 #: model_terms:ir.ui.view,arch_db:partner_email_check.view_general_configuration
 msgid "Require partner email addresses to have valid syntax"
 msgstr "Вимагати коректний синтаксис email-адрес контрагентів"
+
+#. module: partner_email_check
+#: model:ir.model.fields,help:partner_email_check.field_res_company__partner_email_check_check_deliverability
+#: model:ir.model.fields,help:partner_email_check.field_res_config_settings__partner_email_check_check_deliverability
+msgid "Don't allow email addresses with providers that don't exist"
+msgstr "Не дозволяти електронні адреси з неіснуючими поштовими провайдерами"
+
+#. module: partner_email_check
+#: model:ir.model.fields,help:partner_email_check.field_res_company__partner_email_check_syntax
+#: model:ir.model.fields,help:partner_email_check.field_res_config_settings__partner_email_check_syntax
+msgid "Don't allow email addresses with wrong syntax"
+msgstr "Не дозволяти електронні адреси з неправильним синтаксисом"
+
+#. module: partner_email_check
+#: model:ir.model.fields,help:partner_email_check.field_res_company__partner_email_check_filter_duplicates
+#: model:ir.model.fields,help:partner_email_check.field_res_config_settings__partner_email_check_filter_duplicates
+msgid "Don't allow multiple partners to have the same email address."
+msgstr "Не дозволяти кільком партнерам мати однакову електронну адресу."

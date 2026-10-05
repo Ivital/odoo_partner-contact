@@ -44,6 +44,8 @@ msgid ""
 "Converts retreived city and state names to Title Case (upper case on each "
 "first letter of a word) or Upper Case (all letters upper case)."
 msgstr ""
+"Перетворює отримані назви міст і областей у формат Title Case (велика перша "
+"літера кожного слова) або Upper Case (усі літери великі)."
 
 #. module: base_location_geonames_import
 #: model:ir.model.fields,field_description:base_location_geonames_import.field_city_zip_geonames_import__country_ids
@@ -107,7 +109,7 @@ msgstr "Імпорт"
 #. module: base_location_geonames_import
 #: model:ir.model,name:base_location_geonames_import.model_city_zip_geonames_import
 msgid "Import City Zips from Geonames"
-msgstr ""
+msgstr "Імпортувати поштові індекси міст із Geonames"
 
 #. module: base_location_geonames_import
 #: model:ir.actions.act_window,name:base_location_geonames_import.city_zip_geonames_import_action

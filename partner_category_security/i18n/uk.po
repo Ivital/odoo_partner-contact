@@ -23,3 +23,8 @@ msgstr "Теги контактів"
 #: model:res.groups,name:partner_category_security.group_partner_category_manager
 msgid "Manager"
 msgstr "Керівник"
+
+#. module: partner_category_security
+#: model:res.groups,name:partner_category_security.group_partner_category_user
+msgid "Publisher"
+msgstr "Видавець"

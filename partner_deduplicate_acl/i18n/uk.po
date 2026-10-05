@@ -33,3 +33,8 @@ msgstr "Автоматично"
 #: model:res.groups,name:partner_deduplicate_acl.group_manually
 msgid "Manually"
 msgstr "Вручну"
+
+#. module: partner_deduplicate_acl
+#: model:res.groups,name:partner_deduplicate_acl.group_unrestricted
+msgid "Without restrictions"
+msgstr "Без обмежень"

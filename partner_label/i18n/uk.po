@@ -96,3 +96,45 @@ msgstr "Етикетки партнерів"
 #: model_terms:ir.ui.view,arch_db:partner_label.view_general_configuration
 msgid "Labels Configuration"
 msgstr "Налаштування етикеток"
+
+#. module: partner_label
+#: model:ir.model.fields,help:partner_label.field_res_company__partner_labels_height
+#: model:ir.model.fields,help:partner_label.field_res_config_settings__partner_labels_height
+msgid "Height in millimeters"
+msgstr "Висота в міліметрах"
+
+#. module: partner_label
+#: model:ir.model.fields,help:partner_label.field_res_company__partner_labels_margin_bottom
+#: model:ir.model.fields,help:partner_label.field_res_config_settings__partner_labels_margin_bottom
+msgid "Margin bottom in millimeters"
+msgstr "Нижнє поле в міліметрах"
+
+#. module: partner_label
+#: model:ir.model.fields,help:partner_label.field_res_company__partner_labels_margin_left
+#: model:ir.model.fields,help:partner_label.field_res_config_settings__partner_labels_margin_left
+msgid "Margin left in millimeters"
+msgstr "Ліве поле в міліметрах"
+
+#. module: partner_label
+#: model:ir.model.fields,help:partner_label.field_res_company__partner_labels_margin_right
+#: model:ir.model.fields,help:partner_label.field_res_config_settings__partner_labels_margin_right
+msgid "Margin right in millimeters"
+msgstr "Праве поле в міліметрах"
+
+#. module: partner_label
+#: model:ir.model.fields,help:partner_label.field_res_company__partner_labels_margin_top
+#: model:ir.model.fields,help:partner_label.field_res_config_settings__partner_labels_margin_top
+msgid "Margin top in millimeters"
+msgstr "Верхнє поле в міліметрах"
+
+#. module: partner_label
+#: model:ir.model.fields,help:partner_label.field_res_company__partner_labels_padding
+#: model:ir.model.fields,help:partner_label.field_res_config_settings__partner_labels_padding
+msgid "Padding in millimeters"
+msgstr "Відступ у міліметрах"
+
+#. module: partner_label
+#: model:ir.model.fields,help:partner_label.field_res_company__partner_labels_width
+#: model:ir.model.fields,help:partner_label.field_res_config_settings__partner_labels_width
+msgid "Width in millimeters"
+msgstr "Ширина в міліметрах"

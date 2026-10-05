@@ -28,3 +28,8 @@ msgstr "Архівовано"
 #: model_terms:ir.ui.view,arch_db:partner_title_active.view_partner_title_search
 msgid "Search Partner Titles"
 msgstr "Пошук звертань партнерів"
+
+#. module: partner_title_active
+#: model:ir.model.fields,help:partner_title_active.field_res_partner_title__active
+msgid "The active field allows you to hide the title without removing it."
+msgstr "Активне поле дає змогу приховати заголовок, не видаляючи його."

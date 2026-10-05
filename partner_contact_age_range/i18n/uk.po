@@ -84,3 +84,8 @@ msgid ""
 msgstr ""
 "Керуйте віковими діапазонами контактів, які мають бути доступні у вашій системі.\n"
 "            Наприклад: 0–10, 11–20"
+
+#. module: partner_contact_age_range
+#: model:ir.model.constraint,message:partner_contact_age_range.constraint_res_partner_age_range_name_uniq
+msgid "A name must be unique !"
+msgstr "Назва має бути унікальною!"

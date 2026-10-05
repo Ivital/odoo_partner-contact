@@ -51,3 +51,9 @@ msgid "Automatically rank partners when sale or purchase invoices are posted"
 msgstr ""
 "Автоматично ранжувати партнерів під час проведення рахунків продажу або "
 "закупівлі"
+
+#. module: partner_manual_rank
+#. odoo-python
+#: code:addons/partner_manual_rank/models/res_partner.py:0
+msgid "Operation not supported"
+msgstr "Операція не підтримується"

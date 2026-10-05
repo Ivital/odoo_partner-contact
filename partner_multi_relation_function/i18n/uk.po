@@ -31,3 +31,28 @@ msgstr "Дозволити функцію"
 #: model:ir.model.fields,field_description:partner_multi_relation_function.field_res_users__search_relation_function
 msgid "Has relation function"
 msgstr "Має функцію зв'язку"
+
+#. module: partner_multi_relation_function
+#: model:ir.model,name:partner_multi_relation_function.model_res_partner_relation_all
+msgid "All (non-inverse + inverse) relations between partners"
+msgstr "Усі зв’язки (необернені + обернені) між партнерами"
+
+#. module: partner_multi_relation_function
+#: model:ir.model,name:partner_multi_relation_function.model_res_partner_relation_type_selection
+msgid "All relation types"
+msgstr "Усі типи зв’язків"
+
+#. module: partner_multi_relation_function
+#: model:ir.model.fields,help:partner_multi_relation_function.field_res_partner_relation_type__allow_function
+msgid "Is set, relations of this type can have a function specified"
+msgstr "Якщо встановлено, зв’язки цього типу можуть мати вказану функцію"
+
+#. module: partner_multi_relation_function
+#: model:ir.model,name:partner_multi_relation_function.model_res_partner_relation_type
+msgid "Partner Relation Type"
+msgstr "Тип зв’язку партнера"
+
+#. module: partner_multi_relation_function
+#: model:ir.model,name:partner_multi_relation_function.model_res_partner_relation
+msgid "Partner relation"
+msgstr "Зв’язок партнера"
