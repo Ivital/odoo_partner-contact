@@ -16,8 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: partner_multi_relation
 #. odoo-python
@@ -28,7 +27,7 @@ msgstr ""
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__active
 msgid "Active"
-msgstr ""
+msgstr "Активний"
 
 #. module: partner_multi_relation
 #: model:ir.model,name:partner_multi_relation.model_res_partner_relation_all
@@ -110,7 +109,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation__date_end
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__date_end
 msgid "Ending date"
-msgstr ""
+msgstr "Дата завершення"
 
 #. module: partner_multi_relation
 #. odoo-python
@@ -238,7 +237,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__name
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type_selection__name
 msgid "Name"
-msgstr "Name"
+msgstr "Назва"
 
 #. module: partner_multi_relation
 #. odoo-python
@@ -256,7 +255,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__this_partner_id
 #: model_terms:ir.ui.view,arch_db:partner_multi_relation.search_res_partner_relation_all
 msgid "One Partner"
-msgstr ""
+msgstr "Один партнер"
 
 #. module: partner_multi_relation
 #. odoo-python
@@ -283,7 +282,7 @@ msgstr ""
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__any_partner_id
 msgid "Partner"
-msgstr ""
+msgstr "Партнер"
 
 #. module: partner_multi_relation
 #: model:ir.model,name:partner_multi_relation.model_res_partner_relation_type
@@ -310,7 +309,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_type.py:0
 msgid "Person"
-msgstr ""
+msgstr "Особа"
 
 #. module: partner_multi_relation
 #. odoo-python
@@ -323,7 +322,7 @@ msgstr ""
 #. module: partner_multi_relation
 #: model_terms:ir.ui.view,arch_db:partner_multi_relation.form_res_partner_relation_type
 msgid "Properties"
-msgstr ""
+msgstr "Властивості"
 
 #. module: partner_multi_relation
 #: model_terms:ir.actions.act_window,help:partner_multi_relation.action_res_partner_relation_all
@@ -342,7 +341,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__allow_self
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type_selection__allow_self
 msgid "Reflexive"
-msgstr ""
+msgstr "Рефлексивний"
 
 #. module: partner_multi_relation
 #. odoo-python
@@ -366,7 +365,7 @@ msgstr ""
 #. module: partner_multi_relation
 #: model:ir.ui.menu,name:partner_multi_relation.menu_res_partner_relation_type
 msgid "Relation Types"
-msgstr ""
+msgstr "Типи зв’язків"
 
 #. module: partner_multi_relation
 #. odoo-python
@@ -386,7 +385,7 @@ msgstr ""
 #: model:ir.ui.menu,name:partner_multi_relation.menu_res_partner_relation_all
 #: model_terms:ir.ui.view,arch_db:partner_multi_relation.view_partner_form
 msgid "Relations"
-msgstr ""
+msgstr "Зв’язки"
 
 #. module: partner_multi_relation
 #: model_terms:ir.ui.view,arch_db:partner_multi_relation.search_res_partner_relation_all
@@ -396,7 +395,7 @@ msgstr ""
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__res_id
 msgid "Resource ID"
-msgstr ""
+msgstr "ID ресурсу"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__res_model
@@ -448,7 +447,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__is_symmetric
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type_selection__is_symmetric
 msgid "Symmetric"
-msgstr ""
+msgstr "Симетричний"
 
 #. module: partner_multi_relation
 #. odoo-python
@@ -543,8 +542,7 @@ msgstr ""
 #: model:ir.model.fields,help:partner_multi_relation.field_res_partner_relation_type__handle_invalid_onchange
 msgid ""
 "When adding relations criteria like partner type and category are checked.\n"
-"However when you change the criteria, there might be relations that do not "
-"fit the new criteria.\n"
+"However when you change the criteria, there might be relations that do not fit the new criteria.\n"
 "Specify how this situation should be handled."
 msgstr ""
 

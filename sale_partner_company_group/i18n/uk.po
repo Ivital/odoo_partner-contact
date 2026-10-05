@@ -12,3 +12,9 @@ msgstr ""
 #: model:ir.module.module,summary:base.module_sale_partner_company_group
 msgid "Adds the possibility to add a company group to a company"
 msgstr "Додає можливість додати групу компаній до компанії"
+
+#. module: sale_partner_company_group
+#. odoo-python
+#: code:addons/sale_partner_company_group/models/res_partner.py:0
+msgid "Warning"
+msgstr "Попередження"

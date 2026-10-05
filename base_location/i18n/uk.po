@@ -16,8 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: base_location
 #: model:res.city,name:base_location.demo_brussels_city
@@ -35,7 +34,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:base_location.action_res_city_full
 #: model:ir.ui.menu,name:base_location.locations_menu_cities
 msgid "Cities"
-msgstr ""
+msgstr "Міста"
 
 #. module: base_location
 #: model:ir.model,name:base_location.model_res_city
@@ -44,14 +43,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_location.field_res_users__city
 #: model_terms:ir.ui.view,arch_db:base_location.view_company_form_city
 msgid "City"
-msgstr ""
+msgstr "Місто"
 
 #. module: base_location
 #: model:ir.model.fields,field_description:base_location.field_res_company__city_id
 #: model:ir.model.fields,field_description:base_location.field_res_partner__city_id
 #: model:ir.model.fields,field_description:base_location.field_res_users__city_id
 msgid "City ID"
-msgstr ""
+msgstr "ID міста"
 
 #. module: base_location
 #: model_terms:ir.ui.view,arch_db:base_location.view_company_form_city
@@ -67,7 +66,7 @@ msgstr ""
 #. module: base_location
 #: model:ir.model.fields,field_description:base_location.field_res_city__code
 msgid "Code"
-msgstr ""
+msgstr "Код"
 
 #. module: base_location
 #: model:ir.model,name:base_location.model_res_company
@@ -85,7 +84,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_location.field_res_users__country_id
 #: model_terms:ir.ui.view,arch_db:base_location.view_country_search
 msgid "Country"
-msgstr ""
+msgstr "Країна"
 
 #. module: base_location
 #: model:ir.model.fields,field_description:base_location.field_res_city_zip__create_uid
@@ -106,8 +105,7 @@ msgstr "Назва для відображення"
 #: model_terms:ir.actions.act_window,help:base_location.action_res_city_full
 msgid ""
 "Display and manage the list of all cities that can be assigned to\n"
-"            your partner records. Note that an option can be set on each "
-"country\n"
+"            your partner records. Note that an option can be set on each country\n"
 "            separately\n"
 "            to enforce any address of it to have a city in this list."
 msgstr ""
@@ -140,7 +138,7 @@ msgstr ""
 #. module: base_location
 #: model:ir.actions.act_window,name:base_location.action_zip_tree
 msgid "Locations"
-msgstr ""
+msgstr "Розташування"
 
 #. module: base_location
 #: model_terms:ir.ui.view,arch_db:base_location.view_city_zip_filter
@@ -152,7 +150,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_location.field_res_partner__state_id
 #: model:ir.model.fields,field_description:base_location.field_res_users__state_id
 msgid "State"
-msgstr ""
+msgstr "Стан"
 
 #. module: base_location
 #. odoo-python
@@ -182,7 +180,8 @@ msgstr ""
 #. odoo-python
 #: code:addons/base_location/models/res_partner.py:0
 msgid ""
-"The zip of the partner %(partner)s differs from that in location %(location)s"
+"The zip of the partner %(partner)s differs from that in location "
+"%(location)s"
 msgstr ""
 
 #. module: base_location
@@ -200,8 +199,8 @@ msgstr ""
 #. module: base_location
 #: model:ir.model.constraint,message:base_location.constraint_res_city_zip_name_city_uniq
 msgid ""
-"You already have a zip with that code in the same city. The zip code must be "
-"unique within it's city"
+"You already have a zip with that code in the same city. The zip code must be"
+" unique within it's city"
 msgstr ""
 
 #. module: base_location
@@ -214,21 +213,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_location.field_res_partner__zip_id
 #: model:ir.model.fields,field_description:base_location.field_res_users__zip_id
 msgid "ZIP Location"
-msgstr ""
+msgstr "Розташування ZIP"
 
 #. module: base_location
 #: model:ir.model.fields,field_description:base_location.field_res_partner__zip
 #: model:ir.model.fields,field_description:base_location.field_res_users__zip
 #: model_terms:ir.ui.view,arch_db:base_location.city_zip_form
 msgid "Zip"
-msgstr ""
+msgstr "Поштовий індекс"
 
 #. module: base_location
 #: model:ir.ui.menu,name:base_location.locations_menu_zips
 #: model_terms:ir.ui.view,arch_db:base_location.view_city_form
 #: model_terms:ir.ui.view,arch_db:base_location.view_res_country_city_better_zip_form
 msgid "Zips"
-msgstr ""
+msgstr "ZIP-архіви"
 
 #. module: base_location
 #: model:ir.model.fields,field_description:base_location.field_res_city__zip_ids

@@ -1,0 +1,182 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: animal
+#: model:ir.model.fields,field_description:animal.field_animal__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: animal
+#: model:ir.model.fields,field_description:animal.field_animal__activity_ids
+msgid "Activities"
+msgstr "Дії"
+
+#. module: animal
+#: model:ir.actions.act_window,name:animal.action_animal
+#: model:ir.ui.menu,name:animal.menu_animal
+#: model:ir.ui.menu,name:animal.menu_root
+#: model_terms:ir.ui.view,arch_db:animal.view_animal_search
+msgid "Animals"
+msgstr "Тварини"
+
+#. module: animal
+#: model_terms:ir.ui.view,arch_db:animal.view_animal_form
+#: model_terms:ir.ui.view,arch_db:animal.view_animal_search
+msgid "Archived"
+msgstr "Архівовано"
+
+#. module: animal
+#: model_terms:ir.ui.view,arch_db:animal.view_animal_kanban
+msgid "Avatar"
+msgstr "Аватар"
+
+#. module: animal
+#: model:ir.model.fields,field_description:animal.field_animal__birth_date
+msgid "Birth Date"
+msgstr "Дата народження"
+
+#. module: animal
+#: model:ir.model.fields,field_description:animal.field_animal__breed_id
+#: model:ir.model.fields,field_description:animal.field_animal_color__breed_id
+#: model_terms:ir.ui.view,arch_db:animal.view_animal_breed_form
+#: model_terms:ir.ui.view,arch_db:animal.view_animal_search
+msgid "Breed"
+msgstr "Порода"
+
+#. module: animal
+#: model:ir.actions.act_window,name:animal.action_animal_breed
+#: model:ir.model.fields,field_description:animal.field_animal_species__breed_ids
+#: model:ir.ui.menu,name:animal.menu_breed
+#: model_terms:ir.ui.view,arch_db:animal.view_animal_species_form
+msgid "Breeds"
+msgstr "Породи"
+
+#. module: animal
+#: model:ir.model.fields,field_description:animal.field_animal__color_id
+#: model_terms:ir.ui.view,arch_db:animal.view_animal_color_form
+#: model_terms:ir.ui.view,arch_db:animal.view_animal_search
+msgid "Color"
+msgstr "Колір"
+
+#. module: animal
+#: model:ir.actions.act_window,name:animal.action_animal_color
+#: model:ir.ui.menu,name:animal.menu_color
+msgid "Colors"
+msgstr "Кольори"
+
+#. module: animal
+#: model:ir.ui.menu,name:animal.menu_config
+msgid "Configuration"
+msgstr "Конфігурація"
+
+#. module: animal
+#: model:ir.model.fields,field_description:animal.field_animal__create_uid
+#: model:ir.model.fields,field_description:animal.field_animal_breed__create_uid
+#: model:ir.model.fields,field_description:animal.field_animal_color__create_uid
+#: model:ir.model.fields,field_description:animal.field_animal_species__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: animal
+#: model:ir.model.fields,field_description:animal.field_animal__create_date
+#: model:ir.model.fields,field_description:animal.field_animal_breed__create_date
+#: model:ir.model.fields,field_description:animal.field_animal_color__create_date
+#: model:ir.model.fields,field_description:animal.field_animal_species__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: animal
+#: model:ir.model.fields,field_description:animal.field_animal__display_name
+#: model:ir.model.fields,field_description:animal.field_animal_breed__display_name
+#: model:ir.model.fields,field_description:animal.field_animal_color__display_name
+#: model:ir.model.fields,field_description:animal.field_animal_species__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: animal
+#: model:ir.model.fields,field_description:animal.field_animal__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: animal
+#: model:ir.model.fields,field_description:animal.field_animal__gender
+#: model_terms:ir.ui.view,arch_db:animal.view_animal_search
+msgid "Gender"
+msgstr "Стать"
+
+#. module: animal
+#: model:ir.model.fields,field_description:animal.field_animal__has_message
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: animal
+#: model:ir.model.fields,field_description:animal.field_animal__activity_exception_icon
+msgid "Icon"
+msgstr "Іконка"
+
+#. module: animal
+#: model:ir.model.fields,field_description:animal.field_animal__image
+msgid "Image"
+msgstr "Зображення"
+
+#. module: animal
+#: model:ir.model.fields,field_description:animal.field_animal__message_is_follower
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: animal
+#: model:res.groups,name:animal.group_animal_manager
+msgid "Manager"
+msgstr "Керівник"
+
+#. module: animal
+#: model:ir.model.fields,field_description:animal.field_animal__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: animal
+#: model:ir.model.fields,field_description:animal.field_animal__name
+#: model:ir.model.fields,field_description:animal.field_animal_breed__name
+#: model:ir.model.fields,field_description:animal.field_animal_color__name
+#: model:ir.model.fields,field_description:animal.field_animal_species__name
+#: model_terms:ir.ui.view,arch_db:animal.view_animal_search
+msgid "Name"
+msgstr "Назва"
+
+#. module: animal
+#: model:ir.model.fields,field_description:animal.field_animal__ref
+msgid "Reference"
+msgstr "Посилання"
+
+#. module: animal
+#: model:ir.ui.menu,name:animal.menu_settings
+msgid "Settings"
+msgstr "Налаштування"
+
+#. module: animal
+#: model:ir.model.fields,field_description:animal.field_animal__size
+msgid "Size"
+msgstr "Розмір"
+
+#. module: animal
+#: model:ir.actions.act_window,name:animal.action_animal_species
+#: model:ir.model.fields,field_description:animal.field_animal__species_id
+#: model:ir.model.fields,field_description:animal.field_animal_breed__species_id
+#: model:ir.model.fields,field_description:animal.field_animal_color__species_id
+#: model:ir.ui.menu,name:animal.menu_species
+#: model_terms:ir.ui.view,arch_db:animal.view_animal_search
+#: model_terms:ir.ui.view,arch_db:animal.view_animal_species_form
+msgid "Species"
+msgstr "Види"

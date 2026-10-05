@@ -16,8 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: partner_contact_department
 #: model:ir.model.fields,field_description:partner_contact_department.field_res_partner_department__child_ids
@@ -46,14 +45,14 @@ msgstr "Дата створення"
 #: model_terms:ir.ui.view,arch_db:partner_contact_department.view_partner_form_department
 #: model_terms:ir.ui.view,arch_db:partner_contact_department.view_res_partner_filter_department
 msgid "Department"
-msgstr ""
+msgstr "Відділ"
 
 #. module: partner_contact_department
 #: model:ir.actions.act_window,name:partner_contact_department.res_partner_department_action
 #: model:ir.ui.menu,name:partner_contact_department.menu_res_partner_department
 #: model_terms:ir.ui.view,arch_db:partner_contact_department.res_partner_department_tree_view
 msgid "Departments"
-msgstr ""
+msgstr "Відділи"
 
 #. module: partner_contact_department
 #: model:ir.model.fields,field_description:partner_contact_department.field_res_partner_department__display_name
@@ -83,12 +82,12 @@ msgstr "Останнє оновлення"
 #. module: partner_contact_department
 #: model:ir.model.fields,field_description:partner_contact_department.field_res_partner_department__name
 msgid "Name"
-msgstr "Name"
+msgstr "Назва"
 
 #. module: partner_contact_department
 #: model:ir.model.fields,field_description:partner_contact_department.field_res_partner_department__parent_path
 msgid "Parent Path"
-msgstr ""
+msgstr "Батьківський шлях"
 
 #. module: partner_contact_department
 #: model:ir.model.fields,field_description:partner_contact_department.field_res_partner_department__parent_id

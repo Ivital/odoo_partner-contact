@@ -16,14 +16,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: base_location_nuts
 #: model:ir.model.fields,field_description:base_location_nuts.field_res_partner__allowed_nut_ids
 #: model:ir.model.fields,field_description:base_location_nuts.field_res_users__allowed_nut_ids
 msgid "Allowed nuts"
-msgstr ""
+msgstr "Дозволені NUTS"
 
 #. module: base_location_nuts
 #: model_terms:ir.ui.view,arch_db:base_location_nuts.nuts_import_form
@@ -33,12 +32,12 @@ msgstr ""
 #. module: base_location_nuts
 #: model:ir.model.fields,field_description:base_location_nuts.field_res_partner_nuts__child_ids
 msgid "Children"
-msgstr ""
+msgstr "Дочірні"
 
 #. module: base_location_nuts
 #: model:ir.model.fields,field_description:base_location_nuts.field_res_partner_nuts__code
 msgid "Code"
-msgstr ""
+msgstr "Код"
 
 #. module: base_location_nuts
 #: model:ir.model,name:base_location_nuts.model_res_partner
@@ -50,7 +49,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_location_nuts.field_res_partner_nuts__country_id
 #: model_terms:ir.ui.view,arch_db:base_location_nuts.view_res_partner_nuts_filter
 msgid "Country"
-msgstr ""
+msgstr "Країна"
 
 #. module: base_location_nuts
 #: model:ir.model.fields,field_description:base_location_nuts.field_nuts_import__create_uid
@@ -84,7 +83,7 @@ msgstr "ID"
 #. module: base_location_nuts
 #: model_terms:ir.ui.view,arch_db:base_location_nuts.nuts_import_form
 msgid "Import"
-msgstr ""
+msgstr "Імпорт"
 
 #. module: base_location_nuts
 #: model_terms:ir.ui.view,arch_db:base_location_nuts.nuts_import_form
@@ -94,7 +93,7 @@ msgstr ""
 #. module: base_location_nuts
 #: model:ir.ui.menu,name:base_location_nuts.nuts_import_menu
 msgid "Import NUTS 2024"
-msgstr ""
+msgstr "Імпорт NUTS 2024"
 
 #. module: base_location_nuts
 #: model:ir.actions.act_window,name:base_location_nuts.nuts_import_action
@@ -122,7 +121,7 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields,field_description:base_location_nuts.field_res_partner_nuts__level
 #: model_terms:ir.ui.view,arch_db:base_location_nuts.view_res_partner_nuts_filter
 msgid "Level"
-msgstr ""
+msgstr "Рівень"
 
 #. module: base_location_nuts
 #: model:ir.model.fields,help:base_location_nuts.field_res_country__state_level
@@ -144,7 +143,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:base_location_nuts.res_partner_nuts_action
 #: model:ir.ui.menu,name:base_location_nuts.res_partner_nuts_menu
 msgid "NUTS Items"
-msgstr ""
+msgstr "Елементи NUTS"
 
 #. module: base_location_nuts
 #: model:ir.model.fields,field_description:base_location_nuts.field_res_partner__nuts1_id
@@ -181,7 +180,7 @@ msgstr ""
 #. module: base_location_nuts
 #: model:ir.model.fields,field_description:base_location_nuts.field_res_partner_nuts__name
 msgid "Name"
-msgstr "Name"
+msgstr "Назва"
 
 #. module: base_location_nuts
 #: model:ir.model.fields,field_description:base_location_nuts.field_res_partner_nuts__not_updatable
@@ -191,12 +190,12 @@ msgstr ""
 #. module: base_location_nuts
 #: model:ir.model.fields,field_description:base_location_nuts.field_res_partner_nuts__parent_id
 msgid "Parent"
-msgstr ""
+msgstr "Батьківський"
 
 #. module: base_location_nuts
 #: model:ir.model.fields,field_description:base_location_nuts.field_res_partner_nuts__parent_path
 msgid "Parent Path"
-msgstr ""
+msgstr "Батьківський шлях"
 
 #. module: base_location_nuts
 #. odoo-python
@@ -212,12 +211,12 @@ msgstr ""
 #. module: base_location_nuts
 #: model:ir.model.fields,field_description:base_location_nuts.field_res_partner_nuts__state_id
 msgid "State"
-msgstr ""
+msgstr "Стан"
 
 #. module: base_location_nuts
 #: model:ir.model.fields,field_description:base_location_nuts.field_res_country__state_level
 msgid "State Level"
-msgstr ""
+msgstr "Рівень стану"
 
 #. module: base_location_nuts
 #: model_terms:ir.ui.view,arch_db:base_location_nuts.nuts_import_form
@@ -228,8 +227,7 @@ msgid ""
 "                found already in the system, and DELETING MISSING\n"
 "                ENTRIES from new downloaded file.\n"
 "\n"
-"                Update or deletion is prevented for NUTS entries with the "
-"flag 'Not updatable'."
+"                Update or deletion is prevented for NUTS entries with the flag 'Not updatable'."
 msgstr ""
 
 #. module: base_location_nuts
