@@ -56,3 +56,18 @@ msgstr "Пріоритет"
 #: model:ir.model.fields,field_description:partner_priority.field_partner_priority__sequence
 msgid "Sequence"
 msgstr "Послідовність"
+
+#. module: partner_priority
+#: model:ir.model.fields,field_description:partner_priority.field_partner_priority__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: partner_priority
+#: model:ir.model.fields,field_description:partner_priority.field_partner_priority__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: partner_priority
+#: model:ir.actions.act_window,name:partner_priority.partner_priority_action
+msgid "Priority Action"
+msgstr "Дія пріоритету"

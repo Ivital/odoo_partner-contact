@@ -18,3 +18,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:partner_address_street3.field_res_users__street3
 msgid "Street 3"
 msgstr "Вулиця 3"
+
+#. module: partner_address_street3
+#: model_terms:ir.ui.view,arch_db:partner_address_street3.res_partner_view_form_private
+#: model_terms:ir.ui.view,arch_db:partner_address_street3.view_partner_address_form
+#: model_terms:ir.ui.view,arch_db:partner_address_street3.view_partner_form
+msgid "Street 3..."
+msgstr "Вулиця 3..."

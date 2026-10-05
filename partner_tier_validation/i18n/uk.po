@@ -52,3 +52,28 @@ msgstr "Підтверджено"
 #: model:ir.model.fields,field_description:partner_tier_validation.field_res_partner__review_ids
 msgid "Validations"
 msgstr "Погодження"
+
+#. module: partner_tier_validation
+#: model:ir.model.fields,field_description:partner_tier_validation.field_res_partner__need_validation
+msgid "Need Validation"
+msgstr "Потрібна перевірка"
+
+#. module: partner_tier_validation
+#: model:ir.model.fields,field_description:partner_tier_validation.field_res_partner__rejected_message
+msgid "Rejected Message"
+msgstr "Відхилене повідомлення"
+
+#. module: partner_tier_validation
+#: model:ir.model.fields,field_description:partner_tier_validation.field_res_partner__to_validate_message
+msgid "To Validate Message"
+msgstr "Повідомлення для перевірки"
+
+#. module: partner_tier_validation
+#: model:ir.model.fields,field_description:partner_tier_validation.field_res_partner__validated_message
+msgid "Validated Message"
+msgstr "Перевірене повідомлення"
+
+#. module: partner_tier_validation
+#: model:ir.model.fields,field_description:partner_tier_validation.field_res_partner__validation_status
+msgid "Validation Status"
+msgstr "Статус перевірки"

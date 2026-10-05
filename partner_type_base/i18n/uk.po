@@ -18,3 +18,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:partner_type_base.field_res_users__can_be_child
 msgid "Can Be Child"
 msgstr "Може бути дочірнім"
+
+#. module: partner_type_base
+#: model:ir.model.fields,field_description:partner_type_base.field_res_partner__can_be_parent
+#: model:ir.model.fields,field_description:partner_type_base.field_res_users__can_be_parent
+msgid "Can Be Parent"
+msgstr "Може бути батьківським"
+
+#. module: partner_type_base
+#: model:ir.model.fields,field_description:partner_type_base.field_res_partner__is_address_readonly
+#: model:ir.model.fields,field_description:partner_type_base.field_res_users__is_address_readonly
+msgid "Is Address Readonly"
+msgstr "Адреса лише для читання"
+
+#. module: partner_type_base
+#: model:ir.model.fields,field_description:partner_type_base.field_res_partner__is_individual
+#: model:ir.model.fields,field_description:partner_type_base.field_res_users__is_individual
+msgid "Is Individual"
+msgstr "Є фізичною особою"

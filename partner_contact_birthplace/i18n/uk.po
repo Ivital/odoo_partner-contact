@@ -45,3 +45,9 @@ msgstr "Країна"
 #: model_terms:ir.ui.view,arch_db:partner_contact_birthplace.view_personal_information_birthplace
 msgid "State"
 msgstr "Стан"
+
+#. module: partner_contact_birthplace
+#: model:ir.model.fields,field_description:partner_contact_birthplace.field_res_partner__birth_country_id
+#: model:ir.model.fields,field_description:partner_contact_birthplace.field_res_users__birth_country_id
+msgid "Birth country"
+msgstr "Країна народження"

@@ -27,7 +27,7 @@ msgstr "Дозволені NUTS"
 #. module: base_location_nuts
 #: model_terms:ir.ui.view,arch_db:base_location_nuts.nuts_import_form
 msgid "Cancel"
-msgstr ""
+msgstr "Скасувати"
 
 #. module: base_location_nuts
 #: model:ir.model.fields,field_description:base_location_nuts.field_res_partner_nuts__child_ids
@@ -137,7 +137,7 @@ msgstr ""
 #: model:ir.model,name:base_location_nuts.model_res_partner_nuts
 #: model_terms:ir.ui.view,arch_db:base_location_nuts.res_partner_nuts_form
 msgid "NUTS Item"
-msgstr ""
+msgstr "Елемент NUTS"
 
 #. module: base_location_nuts
 #: model:ir.actions.act_window,name:base_location_nuts.res_partner_nuts_action
@@ -185,7 +185,7 @@ msgstr "Назва"
 #. module: base_location_nuts
 #: model:ir.model.fields,field_description:base_location_nuts.field_res_partner_nuts__not_updatable
 msgid "Not Updatable"
-msgstr ""
+msgstr "Не можна оновити"
 
 #. module: base_location_nuts
 #: model:ir.model.fields,field_description:base_location_nuts.field_res_partner_nuts__parent_id
@@ -206,7 +206,7 @@ msgstr ""
 #. module: base_location_nuts
 #: model_terms:ir.ui.view,arch_db:base_location_nuts.view_res_partner_nuts_filter
 msgid "Search NUTS"
-msgstr ""
+msgstr "Пошук NUTS"
 
 #. module: base_location_nuts
 #: model:ir.model.fields,field_description:base_location_nuts.field_res_partner_nuts__state_id

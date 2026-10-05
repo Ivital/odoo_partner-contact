@@ -48,3 +48,19 @@ msgstr "Ролі партнерів"
 #: model:ir.model.fields,field_description:partner_contact_role.field_res_users__role_ids
 msgid "Roles"
 msgstr "Ролі"
+
+#. module: partner_contact_role
+#: model:ir.model.fields,field_description:partner_contact_role.field_res_partner_role__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: partner_contact_role
+#: model:ir.model.fields,field_description:partner_contact_role.field_res_partner_role__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: partner_contact_role
+#: model:ir.actions.act_window,name:partner_contact_role.res_partner_role_act_window
+#: model:ir.model,name:partner_contact_role.model_res_partner_role
+msgid "Partner Role"
+msgstr "Роль контрагента"

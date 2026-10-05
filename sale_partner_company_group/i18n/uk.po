@@ -18,3 +18,9 @@ msgstr "Додає можливість додати групу компаній
 #: code:addons/sale_partner_company_group/models/res_partner.py:0
 msgid "Warning"
 msgstr "Попередження"
+
+#. module: sale_partner_company_group
+#: model:ir.model.fields,field_description:sale_partner_company_group.field_sale_order__company_group_id
+#: model_terms:ir.ui.view,arch_db:sale_partner_company_group.view_sales_order_filter
+msgid "Company Group"
+msgstr "Група компаній"

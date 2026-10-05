@@ -110,7 +110,7 @@ msgstr "Останнє оновлення"
 #. module: partner_external_map
 #: model_terms:ir.ui.view,arch_db:partner_external_map.view_partner_form
 msgid "Map"
-msgstr ""
+msgstr "Карта"
 
 #. module: partner_external_map
 #: model:ir.model,name:partner_external_map.model_map_website
@@ -123,7 +123,7 @@ msgstr "Картографічний сайт"
 #. module: partner_external_map
 #: model:ir.model.fields,field_description:partner_external_map.field_map_website__name
 msgid "Map Website Name"
-msgstr ""
+msgstr "Назва вебсайту карти"
 
 #. module: partner_external_map
 #: model:ir.actions.act_window,name:partner_external_map.map_website_action
@@ -142,7 +142,7 @@ msgstr ""
 #. module: partner_external_map
 #: model_terms:ir.ui.view,arch_db:partner_external_map.view_users_form
 msgid "Maps"
-msgstr ""
+msgstr "Карти"
 
 #. module: partner_external_map
 #. odoo-python
@@ -178,13 +178,13 @@ msgstr ""
 #. module: partner_external_map
 #: model_terms:ir.ui.view,arch_db:partner_external_map.view_partner_form
 msgid "Route Map"
-msgstr ""
+msgstr "Карта маршруту"
 
 #. module: partner_external_map
 #: model:ir.model.fields,field_description:partner_external_map.field_res_config_settings__route_map_website_id
 #: model:ir.model.fields,field_description:partner_external_map.field_res_users__context_route_map_website_id
 msgid "Route Map Website"
-msgstr ""
+msgstr "Вебсайт карти маршруту"
 
 #. module: partner_external_map
 #: model:ir.model.fields,field_description:partner_external_map.field_map_website__route_lat_lon_url

@@ -17,3 +17,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:partner_manual_rank.view_res_partner_filter
 msgid "Customers"
 msgstr "Клієнти"
+
+#. module: partner_manual_rank
+#: model:ir.model.fields,field_description:partner_manual_rank.field_res_partner__is_customer
+#: model:ir.model.fields,field_description:partner_manual_rank.field_res_users__is_customer
+msgid "Is a Customer"
+msgstr "Є клієнтом"
+
+#. module: partner_manual_rank
+#: model:ir.model.fields,field_description:partner_manual_rank.field_res_partner__is_supplier
+#: model:ir.model.fields,field_description:partner_manual_rank.field_res_users__is_supplier
+msgid "Is a Supplier"
+msgstr "Є постачальником"
+
+#. module: partner_manual_rank
+#: model_terms:ir.ui.view,arch_db:partner_manual_rank.view_res_partner_filter
+msgid "Suppliers"
+msgstr "Постачальники"

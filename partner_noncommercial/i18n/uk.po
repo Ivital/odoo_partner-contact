@@ -29,3 +29,47 @@ msgstr "Деталі"
 #: model_terms:ir.ui.view,arch_db:partner_noncommercial.view_res_partner_filter
 msgid "Responsible"
 msgstr "Відповідальний"
+
+#. module: partner_noncommercial
+#: model:ir.model.fields.selection,name:partner_noncommercial.selection__res_partner__company_type__company
+#: model_terms:ir.ui.view,arch_db:partner_noncommercial.view_res_partner_filter
+msgid "Organization"
+msgstr "Організація"
+
+#. module: partner_noncommercial
+#: model_terms:ir.ui.view,arch_db:partner_noncommercial.view_partner_form
+#: model_terms:ir.ui.view,arch_db:partner_noncommercial.view_partner_simple_form
+msgid "Organization Name..."
+msgstr "Назва організації..."
+
+#. module: partner_noncommercial
+#: model:ir.model.fields,field_description:partner_noncommercial.field_res_partner__company_type
+#: model:ir.model.fields,field_description:partner_noncommercial.field_res_users__company_type
+msgid "Organization Type"
+msgstr "Тип організації"
+
+#. module: partner_noncommercial
+#: model_terms:ir.ui.view,arch_db:partner_noncommercial.view_res_partner_filter
+msgid "Organizations"
+msgstr "Організації"
+
+#. module: partner_noncommercial
+#: model:ir.model.fields,field_description:partner_noncommercial.field_res_partner__parent_id
+#: model:ir.model.fields,field_description:partner_noncommercial.field_res_users__parent_id
+msgid "Related organization"
+msgstr "Пов'язана організація"
+
+#. module: partner_noncommercial
+#: model_terms:ir.ui.view,arch_db:partner_noncommercial.view_res_partner_filter
+msgid "With address"
+msgstr "З адресою"
+
+#. module: partner_noncommercial
+#: model_terms:ir.ui.view,arch_db:partner_noncommercial.view_res_partner_filter
+msgid "With email"
+msgstr "З електронною поштою"
+
+#. module: partner_noncommercial
+#: model_terms:ir.ui.view,arch_db:partner_noncommercial.view_partner_form
+msgid "e.g. Unicef"
+msgstr "напр., Unicef"

@@ -54,3 +54,19 @@ msgstr "Назва"
 #: model:ir.model.fields,field_description:partner_contact_age_range.field_res_partner_age_range__age_to
 msgid "To"
 msgstr "Кому"
+
+#. module: partner_contact_age_range
+#: model:ir.model.fields,field_description:partner_contact_age_range.field_res_partner_age_range__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: partner_contact_age_range
+#: model:ir.model.fields,field_description:partner_contact_age_range.field_res_partner_age_range__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: partner_contact_age_range
+#: model:ir.model,name:partner_contact_age_range.model_res_partner_age_range
+#: model_terms:ir.ui.view,arch_db:partner_contact_age_range.view_partner_age_range_form
+msgid "Partner Age Range"
+msgstr "Віковий діапазон контрагента"

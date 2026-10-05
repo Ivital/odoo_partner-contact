@@ -76,3 +76,44 @@ msgstr "Послідовність"
 #: model_terms:ir.ui.view,arch_db:partner_stage.view_partner_search
 msgid "Stage"
 msgstr "Етап"
+
+#. module: partner_stage
+#: model:ir.model.fields.selection,name:partner_stage.selection__res_partner_stage__state__confirmed
+msgid "Approved"
+msgstr "Схвалено"
+
+#. module: partner_stage
+#: model:ir.model.fields,field_description:partner_stage.field_res_partner_stage__is_default
+msgid "Default state"
+msgstr "Типовий стан"
+
+#. module: partner_stage
+#: model:res.partner.stage,name:partner_stage.partner_stage_draft
+msgid "Draft"
+msgstr "Чернетка"
+
+#. module: partner_stage
+#: model:res.partner.stage,name:partner_stage.partner_stage_inactive
+msgid "Inactive"
+msgstr "Неактивний"
+
+#. module: partner_stage
+#: model:ir.model.fields,field_description:partner_stage.field_res_partner_stage__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: partner_stage
+#: model:ir.model.fields,field_description:partner_stage.field_res_partner_stage__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: partner_stage
+#: model:ir.model.fields,field_description:partner_stage.field_res_partner__state
+#: model:ir.model.fields,field_description:partner_stage.field_res_partner_stage__state
+msgid "Related State"
+msgstr "Пов'язаний стан"
+
+#. module: partner_stage
+#: model:ir.model.fields.selection,name:partner_stage.selection__res_partner_stage__state__draft
+msgid "To Approve"
+msgstr "На схвалення"

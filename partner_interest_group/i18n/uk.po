@@ -52,3 +52,13 @@ msgstr "Група інтересів"
 #: model:ir.model.fields,field_description:partner_interest_group.field_res_partner_interest_group__partner_id
 msgid "Partner"
 msgstr "Партнер"
+
+#. module: partner_interest_group
+#: model:ir.model.fields,field_description:partner_interest_group.field_res_partner_interest_group__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: partner_interest_group
+#: model:ir.model.fields,field_description:partner_interest_group.field_res_partner_interest_group__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

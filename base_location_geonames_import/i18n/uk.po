@@ -34,7 +34,7 @@ msgstr ""
 #. module: base_location_geonames_import
 #: model_terms:ir.ui.view,arch_db:base_location_geonames_import.city_zip_geonames_import_form
 msgid "Cancel"
-msgstr ""
+msgstr "Скасувати"
 
 #. module: base_location_geonames_import
 #: model:ir.model.fields,help:base_location_geonames_import.field_city_zip_geonames_import__letter_case
@@ -131,17 +131,17 @@ msgstr "Регістр літер"
 #. module: base_location_geonames_import
 #: model:ir.model.fields.selection,name:base_location_geonames_import.selection__city_zip_geonames_import__letter_case__title
 msgid "Title Case"
-msgstr ""
+msgstr "Кожне Слово З Великої"
 
 #. module: base_location_geonames_import
 #: model:ir.model.fields.selection,name:base_location_geonames_import.selection__city_zip_geonames_import__letter_case__unchanged
 msgid "Unchanged"
-msgstr ""
+msgstr "Без змін"
 
 #. module: base_location_geonames_import
 #: model:ir.model.fields.selection,name:base_location_geonames_import.selection__city_zip_geonames_import__letter_case__upper
 msgid "Upper Case"
-msgstr ""
+msgstr "ВЕРХНІЙ РЕГІСТР"
 
 #. module: base_location_geonames_import
 #: model_terms:ir.ui.view,arch_db:base_location_geonames_import.city_zip_geonames_import_form

@@ -47,3 +47,13 @@ msgstr "Відображувана назва"
 #: model:ir.model.fields,field_description:partner_accreditation.field_res_partner_accreditation__partner_ids
 msgid "Partner"
 msgstr "Партнер"
+
+#. module: partner_accreditation
+#: model:ir.model.fields,field_description:partner_accreditation.field_res_partner_accreditation__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: partner_accreditation
+#: model:ir.model.fields,field_description:partner_accreditation.field_res_partner_accreditation__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

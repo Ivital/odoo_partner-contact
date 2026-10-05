@@ -18,3 +18,9 @@ msgstr ""
 #: code:addons/partner_email_duplicate_warn/models/res_partner.py:0
 msgid "Partners"
 msgstr "Партнери"
+
+#. module: partner_email_duplicate_warn
+#: model:ir.model.fields,field_description:partner_email_duplicate_warn.field_res_partner__same_email_partner_ids
+#: model:ir.model.fields,field_description:partner_email_duplicate_warn.field_res_users__same_email_partner_ids
+msgid "Partner with same e-mail"
+msgstr "Контрагент із тією самою електронною поштою"

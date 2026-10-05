@@ -21,31 +21,31 @@ msgstr ""
 #. module: partner_capital
 #: model:ir.model.fields.selection,name:partner_capital.selection__res_partner__company_size__big
 msgid "Big"
-msgstr ""
+msgstr "Великий"
 
 #. module: partner_capital
 #: model_terms:ir.ui.view,arch_db:partner_capital.view_partner_form_capital
 msgid "Capital"
-msgstr ""
+msgstr "Капітал"
 
 #. module: partner_capital
 #: model:ir.model.fields,field_description:partner_capital.field_res_partner__capital_amount
 #: model:ir.model.fields,field_description:partner_capital.field_res_users__capital_amount
 msgid "Capital amount"
-msgstr ""
+msgstr "Сума капіталу"
 
 #. module: partner_capital
 #: model:ir.model.fields,field_description:partner_capital.field_res_partner__capital_country_id
 #: model:ir.model.fields,field_description:partner_capital.field_res_users__capital_country_id
 #: model_terms:ir.ui.view,arch_db:partner_capital.view_res_partner_filter_capital
 msgid "Capital country"
-msgstr ""
+msgstr "Країна капіталу"
 
 #. module: partner_capital
 #: model:ir.model.fields,field_description:partner_capital.field_res_partner__capital_currency_id
 #: model:ir.model.fields,field_description:partner_capital.field_res_users__capital_currency_id
 msgid "Capital currency"
-msgstr ""
+msgstr "Валюта капіталу"
 
 #. module: partner_capital
 #: model:ir.model.fields,field_description:partner_capital.field_res_partner__company_size
@@ -108,7 +108,7 @@ msgstr "Середній"
 #. module: partner_capital
 #: model:ir.model.fields.selection,name:partner_capital.selection__res_partner__company_size__micro
 msgid "Micro"
-msgstr ""
+msgstr "Мікро"
 
 #. module: partner_capital
 #: model:ir.model.fields,field_description:partner_capital.field_res_partner_turnover_range__name
@@ -124,25 +124,25 @@ msgstr ""
 #. module: partner_capital
 #: model:ir.model.fields.selection,name:partner_capital.selection__res_partner__company_size__small
 msgid "Small"
-msgstr ""
+msgstr "Малий"
 
 #. module: partner_capital
 #: model_terms:ir.ui.view,arch_db:partner_capital.view_res_partner_filter_capital
 msgid "Turnover"
-msgstr ""
+msgstr "Оборот"
 
 #. module: partner_capital
 #: model:ir.model.fields,field_description:partner_capital.field_res_partner__turnover_amount
 #: model:ir.model.fields,field_description:partner_capital.field_res_users__turnover_amount
 msgid "Turnover Amount"
-msgstr ""
+msgstr "Сума обороту"
 
 #. module: partner_capital
 #: model:ir.model,name:partner_capital.model_res_partner_turnover_range
 #: model:ir.model.fields,field_description:partner_capital.field_res_partner__turnover_range_id
 #: model:ir.model.fields,field_description:partner_capital.field_res_users__turnover_range_id
 msgid "Turnover range"
-msgstr ""
+msgstr "Діапазон обороту"
 
 #. module: partner_capital
 #: model:ir.actions.act_window,name:partner_capital.res_partner_turnover_range_action

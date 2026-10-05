@@ -64,3 +64,30 @@ msgstr "Попередній перегляд"
 #: model_terms:ir.ui.view,arch_db:partner_label.view_general_configuration
 msgid "Width"
 msgstr "Ширина"
+
+#. module: partner_label
+#: model_terms:ir.ui.view,arch_db:partner_label.view_general_configuration
+msgid "<span> mm</span>"
+msgstr "<span> мм</span>"
+
+#. module: partner_label
+#: model_terms:ir.ui.view,arch_db:partner_label.view_general_configuration
+msgid "Label Margins"
+msgstr "Поля етикетки"
+
+#. module: partner_label
+#: model_terms:ir.ui.view,arch_db:partner_label.view_general_configuration
+msgid "Label Size"
+msgstr "Розмір етикетки"
+
+#. module: partner_label
+#: model:ir.model.fields,field_description:partner_label.field_res_company__partner_labels_margin_bottom
+#: model:ir.model.fields,field_description:partner_label.field_res_config_settings__partner_labels_margin_bottom
+#: model_terms:ir.ui.view,arch_db:partner_label.view_general_configuration
+msgid "Margin Bottom"
+msgstr "Нижнє поле"
+
+#. module: partner_label
+#: model:ir.actions.report,name:partner_label.report_res_partner_label
+msgid "Partner Labels"
+msgstr "Етикетки партнерів"

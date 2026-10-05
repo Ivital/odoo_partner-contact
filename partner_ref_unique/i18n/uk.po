@@ -17,3 +17,18 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:partner_ref_unique.view_company_form
 msgid "Partners"
 msgstr "Партнери"
+
+#. module: partner_ref_unique
+#: model:ir.model.fields.selection,name:partner_ref_unique.selection__res_company__partner_ref_unique__all
+msgid "All partners"
+msgstr "Усі контрагенти"
+
+#. module: partner_ref_unique
+#: model:ir.model.fields.selection,name:partner_ref_unique.selection__res_company__partner_ref_unique__none
+msgid "None"
+msgstr "Немає"
+
+#. module: partner_ref_unique
+#: model:ir.model.fields.selection,name:partner_ref_unique.selection__res_company__partner_ref_unique__companies
+msgid "Only companies"
+msgstr "Лише компанії"

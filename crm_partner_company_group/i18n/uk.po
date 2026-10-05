@@ -12,3 +12,9 @@ msgstr ""
 #: model:ir.module.module,summary:base.module_crm_partner_company_group
 msgid "Adds the possibility to add a company group to a company"
 msgstr "Додає можливість додати групу компаній до компанії"
+
+#. module: crm_partner_company_group
+#: model:ir.model.fields,field_description:crm_partner_company_group.field_crm_lead__company_group_id
+#: model_terms:ir.ui.view,arch_db:crm_partner_company_group.view_crm_case_opportunities_filter
+msgid "Company Group"
+msgstr "Група компаній"

@@ -23,3 +23,13 @@ msgstr "Видалення дублікатів контактів"
 #: model:ir.ui.menu,name:partner_deduplicate_acl.base_tools
 msgid "Tools"
 msgstr "Інструменти"
+
+#. module: partner_deduplicate_acl
+#: model:res.groups,name:partner_deduplicate_acl.group_automatically
+msgid "Automatically"
+msgstr "Автоматично"
+
+#. module: partner_deduplicate_acl
+#: model:res.groups,name:partner_deduplicate_acl.group_manually
+msgid "Manually"
+msgstr "Вручну"

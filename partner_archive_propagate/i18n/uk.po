@@ -61,3 +61,55 @@ msgstr "Телефон"
 #: model:ir.model.fields,field_description:partner_archive_propagate.field_res_partner_archive_propagate_line__wizard_id
 msgid "Wizard"
 msgstr "Майстер"
+
+#. module: partner_archive_propagate
+#: model_terms:ir.ui.view,arch_db:partner_archive_propagate.view_archive_propagate_wizard_form
+msgid "Archive"
+msgstr "Архівувати"
+
+#. module: partner_archive_propagate
+#. odoo-python
+#: code:addons/partner_archive_propagate/models/res_partner.py:0
+#: model_terms:ir.ui.view,arch_db:partner_archive_propagate.view_archive_propagate_wizard_form
+msgid "Archive Contacts"
+msgstr "Архівувати контакти"
+
+#. module: partner_archive_propagate
+#: model:ir.model.fields,field_description:partner_archive_propagate.field_res_partner__propagated_from_id
+#: model:ir.model.fields,field_description:partner_archive_propagate.field_res_users__propagated_from_id
+msgid "Archived Due To"
+msgstr "Архівовано через"
+
+#. module: partner_archive_propagate
+#: model_terms:ir.ui.view,arch_db:partner_archive_propagate.view_archive_propagate_wizard_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: partner_archive_propagate
+#: model:ir.model.fields,help:partner_archive_propagate.field_res_config_settings__partner_archive_force_outside_ui
+#: model_terms:ir.ui.view,arch_db:partner_archive_propagate.view_res_config_settings_partner_archive
+msgid ""
+"If enabled, archiving a partner via any non-UI method (imports, RPC, "
+"automated) will also archive all descendants and mark them as propagated."
+msgstr ""
+"Якщо увімкнено, архівування контрагента будь-яким способом поза UI (імпорт, "
+"RPC, автоматизація) також архівує всіх нащадків і позначить це як поширене "
+"архівування."
+
+#. module: partner_archive_propagate
+#: model:ir.model.fields,field_description:partner_archive_propagate.field_res_partner_archive_propagate_line__write_uid
+#: model:ir.model.fields,field_description:partner_archive_propagate.field_res_partner_archive_propagate_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: partner_archive_propagate
+#: model:ir.model.fields,field_description:partner_archive_propagate.field_res_partner_archive_propagate_line__write_date
+#: model:ir.model.fields,field_description:partner_archive_propagate.field_res_partner_archive_propagate_wizard__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: partner_archive_propagate
+#: model:ir.model.fields,field_description:partner_archive_propagate.field_res_partner__show_prop_wizard_button
+#: model:ir.model.fields,field_description:partner_archive_propagate.field_res_users__show_prop_wizard_button
+msgid "Show Prop Wizard Button"
+msgstr "Показувати кнопку майстра властивостей"

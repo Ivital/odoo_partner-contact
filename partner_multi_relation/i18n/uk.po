@@ -43,7 +43,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner__relation_all_ids
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_users__relation_all_ids
 msgid "All relations with current partner"
-msgstr ""
+msgstr "Усі зв'язки з поточним контрагентом"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields.selection,name:partner_multi_relation.selection__res_partner_relation_type__handle_invalid_onchange__ignore
@@ -136,19 +136,19 @@ msgstr ""
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner__search_relation_type_id
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_users__search_relation_type_id
 msgid "Has relation of type"
-msgstr ""
+msgstr "Має зв'язок типу"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner__search_relation_partner_id
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_users__search_relation_partner_id
 msgid "Has relation with"
-msgstr ""
+msgstr "Має зв'язок із"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner__search_relation_partner_category_id
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_users__search_relation_partner_category_id
 msgid "Has relation with a partner in category"
-msgstr ""
+msgstr "Має зв'язок із контрагентом у категорії"
 
 #. module: partner_multi_relation
 #: model:res.partner.relation.type,name:partner_multi_relation.rel_type_has_worked_for
@@ -176,7 +176,7 @@ msgstr ""
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__name_inverse
 msgid "Inverse name"
-msgstr ""
+msgstr "Зворотна назва"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,help:partner_multi_relation.field_res_partner_relation_all__is_inverse
@@ -199,7 +199,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__is_inverse
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type_selection__is_inverse
 msgid "Is reverse type?"
-msgstr ""
+msgstr "Є зворотним типом?"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation__write_uid
@@ -231,7 +231,7 @@ msgstr ""
 #. module: partner_multi_relation
 #: model_terms:ir.ui.view,arch_db:partner_multi_relation.search_res_partner_relation_all
 msgid "Left to right"
-msgstr ""
+msgstr "Зліва направо"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__name
@@ -267,7 +267,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__other_partner_id
 #: model_terms:ir.ui.view,arch_db:partner_multi_relation.search_res_partner_relation_all
 msgid "Other Partner"
-msgstr ""
+msgstr "Інший контрагент"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type_selection__partner_category_other
@@ -355,12 +355,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner__relation_count
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_users__relation_count
 msgid "Relation Count"
-msgstr ""
+msgstr "Кількість зв'язків"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__type_selection_id
 msgid "Relation Type"
-msgstr ""
+msgstr "Тип зв’язку"
 
 #. module: partner_multi_relation
 #: model:ir.ui.menu,name:partner_multi_relation.menu_res_partner_relation_type
@@ -377,7 +377,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner__search_relation_date
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_users__search_relation_date
 msgid "Relation valid"
-msgstr ""
+msgstr "Зв'язок чинний"
 
 #. module: partner_multi_relation
 #: model:ir.actions.act_window,name:partner_multi_relation.action_res_partner_relation_all
@@ -400,7 +400,7 @@ msgstr "ID ресурсу"
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__res_model
 msgid "Resource Model"
-msgstr ""
+msgstr "Модель ресурсу"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__partner_category_right
@@ -420,7 +420,7 @@ msgstr ""
 #. module: partner_multi_relation
 #: model_terms:ir.ui.view,arch_db:partner_multi_relation.search_res_partner_relation_all
 msgid "Right to left"
-msgstr ""
+msgstr "Справа наліво"
 
 #. module: partner_multi_relation
 #: model_terms:ir.ui.view,arch_db:partner_multi_relation.search_res_partner_relation_all
@@ -435,13 +435,13 @@ msgstr ""
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation__left_partner_id
 msgid "Source Partner"
-msgstr ""
+msgstr "Початковий партнер"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation__date_start
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__date_start
 msgid "Starting date"
-msgstr ""
+msgstr "Дата початку"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__is_symmetric

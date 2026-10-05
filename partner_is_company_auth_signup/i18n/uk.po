@@ -17,3 +17,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:partner_is_company_auth_signup.fields
 msgid "Company"
 msgstr "Компанія"
+
+#. module: partner_is_company_auth_signup
+#: model_terms:ir.ui.view,arch_db:partner_is_company_auth_signup.fields
+msgid "Individual"
+msgstr "Фізична особа"

@@ -22,7 +22,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:partner_contact_job_position.field_res_partner__job_position_id
 #: model:ir.model.fields,field_description:partner_contact_job_position.field_res_users__job_position_id
 msgid "Categorized job position"
-msgstr ""
+msgstr "Категоризована посада"
 
 #. module: partner_contact_job_position
 #: model:ir.model,name:partner_contact_job_position.model_res_partner
@@ -59,12 +59,12 @@ msgstr "Посади"
 #: model:ir.model,name:partner_contact_job_position.model_res_partner_job_position
 #: model_terms:ir.ui.view,arch_db:partner_contact_job_position.view_res_partner_filter_job_position
 msgid "Job position"
-msgstr ""
+msgstr "Посада"
 
 #. module: partner_contact_job_position
 #: model_terms:ir.ui.view,arch_db:partner_contact_job_position.res_partner_job_position_form_view
 msgid "Job positions"
-msgstr ""
+msgstr "Посади"
 
 #. module: partner_contact_job_position
 #: model:ir.model.fields,field_description:partner_contact_job_position.field_res_partner_job_position__write_uid

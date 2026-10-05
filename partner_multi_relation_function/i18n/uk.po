@@ -18,3 +18,16 @@ msgstr ""
 #: model:ir.model.fields,field_description:partner_multi_relation_function.field_res_partner_relation_all__function
 msgid "Function"
 msgstr "Функція"
+
+#. module: partner_multi_relation_function
+#: model:ir.model.fields,field_description:partner_multi_relation_function.field_res_partner_relation_all__allow_function
+#: model:ir.model.fields,field_description:partner_multi_relation_function.field_res_partner_relation_type__allow_function
+#: model:ir.model.fields,field_description:partner_multi_relation_function.field_res_partner_relation_type_selection__allow_function
+msgid "Allow Function"
+msgstr "Дозволити функцію"
+
+#. module: partner_multi_relation_function
+#: model:ir.model.fields,field_description:partner_multi_relation_function.field_res_partner__search_relation_function
+#: model:ir.model.fields,field_description:partner_multi_relation_function.field_res_users__search_relation_function
+msgid "Has relation function"
+msgstr "Має функцію зв'язку"
